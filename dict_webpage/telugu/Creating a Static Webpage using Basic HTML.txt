@@ -1,0 +1,68 @@
+🔹 Web & HTML Basics
+
+Webpage – Oka internet page
+Website – Chala webpages kalisi unde site
+Static Webpage – Change kakunda fixed page
+HTML – Webpage build cheyadaniki markup language
+Browser – Websites open chese software
+
+🔹 HTML Document Structure
+
+DOCTYPE – HTML version declare cheyedi
+&lt;html&gt; – Webpage main container
+&lt;head&gt; – Page info store section
+&lt;title&gt; – Browser tab name
+&lt;body&gt; – Visible webpage content
+
+🔹 Text & Content Tags
+
+&lt;h1&gt; to &lt;h6&gt; – Heading size tags
+&lt;p&gt; – Text paragraph create cheyedi
+&lt;br&gt; – New line create cheyedi
+&lt;hr&gt; – Line separator create cheyedi
+&lt;strong&gt; – Bold importance text
+&lt;em&gt; – Italic emphasize text
+
+🔹 Lists
+
+&lt;ul&gt; – Bullet list create cheyedi
+&lt;ol&gt; – Number list create cheyedi
+&lt;li&gt; – List lo item represent cheyedi
+
+🔹 Links & Media
+
+&lt;a&gt; – Page link create cheyedi
+href – Link destination address
+&lt;img&gt; – Image display cheyedi
+src – Image location specify cheyedi
+alt – Image ki alternate description
+
+🔹 Tables
+
+&lt;table&gt; – Table create container
+&lt;tr&gt; – Table row create cheyedi
+&lt;td&gt; – Table data cell
+&lt;th&gt; – Table heading cell
+
+🔹 Forms (Basic)
+
+&lt;form&gt; – User input collect container
+&lt;input&gt; – User data enter field
+type – Input format specify cheyedi
+&lt;label&gt; – Input description text
+&lt;button&gt; – Action click button
+
+🔹 Attributes & Formatting
+
+Attribute – Tag ki extra details ivvadaniki
+id – Unique element name
+class – Similar elements group name
+style – Inline design apply cheyedi
+align – Content position set cheyedi
+
+🔹 File & Deployment Basics
+
+.html – HTML file extension
+Index Page – Website starting page
+Localhost – Own system testing server
+Hosting – Website internet lo publish cheyadam

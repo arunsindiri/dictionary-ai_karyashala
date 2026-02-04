@@ -1,0 +1,103 @@
+🔹 Core Concepts
+
+NotebookLM – Research & notes kosam use chese AI tool
+
+AI Research Assistant – Information analyze cheyadaniki help chese AI
+
+Notebook – Sources & notes store chese workspace
+
+Source – Upload chesina document or reference
+
+Context-Aware AI – Given sources base chesukoni answer iche AI
+
+🔹 Input & Sources
+
+Document Upload – Analysis kosam files add cheyadam
+
+PDF – Portable document format file
+
+Text File – Plain text document
+
+Google Docs – Online document source
+
+Web Source – Internet reference
+
+Citation – Source reference chupinchadam
+
+🔹 Reading & Understanding Tasks
+
+Summarization – Content ni short ga cheyadam
+
+Key Points – Main important ideas
+
+Highlights – Important sections
+
+Explanation – Complex topic ni clear ga cheyadam
+
+Concept Breakdown – Ideas ni simple parts ga split cheyadam
+
+🔹 Question & Answer Tasks
+
+Q&A – Sources gurinchi questions adagadam & answers pondadam
+
+Source-Based Answer – Uploaded content base chesina answer
+
+Follow-up Question – Previous answer meeda adige question
+
+Clarification – Confusion clear cheyadam
+
+🔹 Note-Taking Tasks
+
+Notes – Content gurinchi written understanding
+
+Study Notes – Exam preparation kosam notes
+
+Bullet Points – Short listed points
+
+Outline – Structured summary
+
+Annotation – Text meeda extra notes add cheyadam
+
+🔹 Organization & Analysis
+
+Topic Grouping – Related ideas ni group cheyadam
+
+Comparison – Similarities & differences kanukodam
+
+Insight Extraction – Hidden meaning or deep understanding kanukodam
+
+Pattern Recognition – Trends or repeated patterns identify cheyadam
+
+Cross-Reference – Multiple sources ni link cheyadam
+
+🔹 Writing Assistance
+
+Drafting – Initial content create cheyadam
+
+Rewriting – Text ni improve cheyadam
+
+Simplification – Content ni easy ga cheyadam
+
+Paraphrasing – Same meaning tho vere words lo rayadam
+
+Tone Adjustment – Writing style change cheyadam
+
+🔹 Study & Learning Tasks
+
+Revision – Material ni malli review cheyadam
+
+Exam Preparation – Exams kosam study output
+
+Flashcards – Question-answer learning cards
+
+Practice Questions – Self test questions
+
+Learning Aid – Learning support chese tool
+
+🔹 Trust & Accuracy
+
+Grounded Responses – Sources base chesina answers
+
+Source Attribution – Answer ekkadi nunchi vachindo chupinchadam
+
+Hallucination Reduction – Fake or incorrect answers avoid cheyadam

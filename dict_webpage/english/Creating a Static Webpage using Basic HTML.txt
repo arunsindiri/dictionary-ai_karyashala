@@ -1,0 +1,68 @@
+🔹 Web & HTML Basics
+
+Webpage – A single page on the internet
+Website – A collection of webpages
+Static Webpage – A webpage with fixed content
+HTML – Language used to create webpages
+Browser – Software used to open websites
+
+🔹 HTML Document Structure
+
+DOCTYPE – Declares the HTML version
+&lt;html&gt; – Main container of webpage
+&lt;head&gt; – Stores webpage information
+&lt;title&gt; – Name shown on browser tab
+&lt;body&gt; – Visible webpage content
+
+🔹 Text & Content Tags
+
+&lt;h1&gt; to &lt;h6&gt; – Heading tags of different sizes
+&lt;p&gt; – Creates a paragraph
+&lt;br&gt; – Creates a line break
+&lt;hr&gt; – Creates a horizontal line
+&lt;strong&gt; – Shows important bold text
+&lt;em&gt; – Shows emphasized italic text
+
+🔹 Lists
+
+&lt;ul&gt; – Creates bullet list
+&lt;ol&gt; – Creates numbered list
+&lt;li&gt; – Represents list item
+
+🔹 Links & Media
+
+&lt;a&gt; – Creates hyperlink
+href – Specifies link destination
+&lt;img&gt; – Displays an image
+src – Specifies image location
+alt – Provides alternate image text
+
+🔹 Tables
+
+&lt;table&gt; – Creates a table
+&lt;tr&gt; – Creates table row
+&lt;td&gt; – Creates table data cell
+&lt;th&gt; – Creates table heading cell
+
+🔹 Forms (Basic)
+
+&lt;form&gt; – Creates input form container
+&lt;input&gt; – Field for user data entry
+type – Specifies input format
+&lt;label&gt; – Describes input field
+&lt;button&gt; – Clickable action button
+
+🔹 Attributes & Formatting
+
+Attribute – Provides extra tag information
+id – Unique element identifier
+class – Groups similar elements
+style – Applies inline design
+align – Sets content alignment
+
+🔹 File & Deployment Basics
+
+.html – HTML file extension
+Index Page – Main starting webpage
+Localhost – Local system testing server
+Hosting – Publishing website online

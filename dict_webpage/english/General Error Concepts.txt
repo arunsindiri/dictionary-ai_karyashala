@@ -1,0 +1,113 @@
+📘 Dictionary Words
+Writing Small Codes to Generate Errors
+🔹 General Error Concepts
+
+Error – A problem that prevents correct execution
+
+Bug – Mistake in a program
+
+Fault – Cause of an error
+
+Failure – Incorrect program behavior
+
+Debugging – Finding and fixing errors
+
+🔹 Syntax & Compile-Time Errors
+
+Syntax Error – Grammar mistake in code
+
+Compile-Time Error – Error found during compilation
+
+Missing Semicolon – Common syntax mistake
+
+Invalid Keyword – Wrong or misspelled keyword
+
+Type Mismatch – Incompatible data types
+
+Undeclared Variable – Variable used without declaration
+
+🔹 Runtime Errors
+
+Runtime Error – Error occurring during execution
+
+Exception – Runtime error that interrupts flow
+
+Division by Zero – Invalid arithmetic operation
+
+Null Reference – Accessing empty reference
+
+Segmentation Fault – Invalid memory access (C)
+
+Index Out of Range – Invalid index access
+
+🔹 Logical Errors
+
+Logical Error – Program runs but gives wrong output
+
+Incorrect Condition – Wrong logic in decision
+
+Infinite Loop – Loop that never ends
+
+Wrong Formula – Incorrect calculation logic
+
+🔹 Memory-Related Errors
+
+Memory Leak – Memory not released
+
+Stack Overflow – Stack memory exceeded
+
+Heap Overflow – Heap memory exceeded
+
+Dangling Pointer – Pointer to freed memory
+
+Uninitialized Variable – Variable used before assignment
+
+🔹 Function & Call Errors
+
+Function Call Error – Wrong function usage
+
+Missing Return Statement – No return where expected
+
+Wrong Argument Count – Too many/few arguments
+
+Recursive Error – Missing base case
+
+🔹 Python-Specific Error Words
+
+IndentationError – Incorrect indentation
+
+NameError – Variable not defined
+
+TypeError – Operation on wrong type
+
+ValueError – Correct type, wrong value
+
+ZeroDivisionError – Division by zero
+
+ImportError – Module import failure
+
+RecursionError – Maximum recursion depth exceeded
+
+🔹 C-Specific Error Words
+
+Compiler Error – Error during compilation
+
+Linker Error – Error during linking
+
+Segmentation Fault – Illegal memory access
+
+Buffer Overflow – Writing beyond memory limit
+
+Undefined Behavior – Unpredictable program behavior
+
+🔹 Error Analysis & Learning
+
+Error Message – Description of error
+
+Line Number – Location of error
+
+Traceback – Call stack at error time (Python)
+
+Warning – Potential problem, not fatal
+
+Reproducible Error – Error that occurs consistently

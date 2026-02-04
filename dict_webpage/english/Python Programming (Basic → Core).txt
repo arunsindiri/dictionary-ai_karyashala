@@ -1,0 +1,154 @@
+📘 Dictionary Words
+Python Programming (Basic → Core)
+
+You can directly add these to your dictionary.
+
+🔹 Python Basics
+
+Python – High-level, interpreted programming language
+
+Interpreter – Executes Python code line by line
+
+Script – Python file containing code
+
+REPL – Read–Eval–Print Loop
+
+Indentation – Spaces used to define code blocks
+
+🔹 Data Types
+
+int – Integer numbers
+
+float – Decimal numbers
+
+str – Text data (string)
+
+bool – True or False
+
+None – Represents no value
+
+🔹 Variables & Assignment
+
+Variable – Name that stores a value
+
+Assignment – Giving value using =
+
+Dynamic Typing – Type decided at runtime
+
+🔹 Operators
+
+Arithmetic Operators – + - * / %
+
+Comparison Operators – == != > <
+
+Logical Operators – and or not
+
+Assignment Operators – = += -=
+
+🔹 Control Flow
+
+if – Executes code when condition is true
+
+elif – Else-if condition
+
+else – Executes when condition is false
+
+for loop – Iterates over a sequence
+
+while loop – Repeats while condition is true
+
+break – Stops loop
+
+continue – Skips current iteration
+
+🔹 Functions
+
+Function – Reusable block of code
+
+def – Keyword to define function
+
+Parameter – Variable in function definition
+
+Argument – Value passed to function
+
+return – Sends value back
+
+🔹 Collections
+
+list – Ordered, changeable collection
+
+tuple – Ordered, unchangeable collection
+
+set – Unordered, unique collection
+
+dict – Key–value pair collection
+
+Index – Position of element
+
+Slice – Extract part of sequence
+
+🔹 Strings
+
+String – Sequence of characters
+
+Concatenation – Joining strings
+
+Formatting – Creating formatted strings
+
+f-string – Modern string formatting
+
+🔹 Input & Output
+
+input() – Takes user input
+
+print() – Displays output
+
+🔹 Modules & Packages
+
+Module – File containing Python code
+
+Package – Collection of modules
+
+import – Loads module
+
+from – Imports specific items
+
+🔹 Errors & Exceptions
+
+Error – Problem in program
+
+SyntaxError – Grammar mistake
+
+Runtime Error – Error during execution
+
+Exception – Error that can be handled
+
+try / except – Handles exceptions
+
+finally – Always executed block
+
+🔹 Files
+
+File – Stored data on disk
+
+open() – Opens a file
+
+read() – Reads file content
+
+write() – Writes to file
+
+close() – Closes file
+
+🔹 OOP Basics
+
+Class – Blueprint for objects
+
+Object – Instance of class
+
+Attribute – Variable of object
+
+Method – Function of class
+
+init – Constructor method
+
+Inheritance – Reusing class features

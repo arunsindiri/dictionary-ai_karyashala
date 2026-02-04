@@ -1,0 +1,79 @@
+🔹 End User Experience Words
+
+End User – Final ga software ni use chese person
+
+User Experience (UX) – User ki software use chesthe overall feeling & comfort
+
+Usability – System ni easy ga use cheyadam
+
+User-Friendly – Users ki simple & easy ga ardham ayye system
+
+Accessibility – Andharu (including disabled users) use cheyagalige system
+
+Interface – User & program madhya communication layer
+
+Responsiveness – System fast ga reply ivvadam
+
+🔹 Meaningful Variable Names Words
+
+Variable Naming – Variables ki clear & meaning unna peru ivvadam
+
+Readability – Code ni easy ga chadavadaniki & ardham chesukodaniki possible avvadam
+
+Self-Documenting Code – Code chusthe explanation kavalsina avasaram lekunda ardham avvadam
+
+Naming Convention – Variables/functions ki standard naming rules
+
+Identifier – Variable or function ki ichina name
+
+Clarity – Code clear ga undadam
+
+Maintainability – Future lo code modify cheyadam easy avvadam
+
+🔹 Correctness Using Tracing Words
+
+Tracing – Algorithm steps ni manual ga follow cheyadam
+
+Dry Run – Program ni step-by-step manual execution cheyadam
+
+Execution Flow – Program steps order
+
+State Tracking – Variables values ni monitor cheyadam
+
+Validation – Logic correct aa kadha ani check cheyadam
+
+Test Case – Program correct ga work chesthundha ani check cheyadaniki input
+
+Debugging – Errors ni kanukoni fix cheyadam
+
+🔹 Multiple Solutions Words
+
+Alternative Solution – Problem ki different solving methods
+
+Optimization – Performance improve cheyadam
+
+Efficiency – Time & memory ni best ga use cheyadam
+
+Trade-off – Advantages & disadvantages balance cheyadam
+
+Algorithm Comparison – Different algorithms ni compare cheyadam
+
+Complexity Analysis – Algorithm performance measure cheyadam
+
+Scalability – Large inputs handle cheyagalige ability
+
+🔹 No Duplicates Words
+
+Uniqueness – Repeated data lekunda undadam
+
+Duplicate Removal – Repeated values remove cheyadam
+
+Data Integrity – Data correct & consistent ga undadam
+
+Redundancy – Unnecessary repeated data
+
+Set Structure – Unique elements unna collection
+
+Validation Check – Data uniqueness verify cheyadam
+
+Consistency – Data uniform ga maintain cheyadam

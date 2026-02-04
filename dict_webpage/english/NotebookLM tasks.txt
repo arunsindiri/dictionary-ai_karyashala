@@ -1,0 +1,108 @@
+📘 Dictionary Words
+NotebookLM Tasks
+
+You can directly add these words to your dictionary.
+
+🔹 Core Concepts
+
+NotebookLM – AI tool for research, notes, and understanding documents
+
+AI Research Assistant – AI that helps analyze information
+
+Notebook – Workspace containing sources and notes
+
+Source – Uploaded document or reference
+
+Context-Aware AI – AI that answers based on given sources
+
+🔹 Input & Sources
+
+Document Upload – Adding files for analysis
+
+PDF – Portable Document Format
+
+Text File – Plain text document
+
+Google Docs – Online document source
+
+Web Source – Online reference
+
+Citation – Reference to source content
+
+🔹 Reading & Understanding Tasks
+
+Summarization – Creating short version of content
+
+Key Points – Main ideas extracted
+
+Highlights – Important sections
+
+Explanation – Clarifying complex topics
+
+Concept Breakdown – Simplifying ideas
+
+🔹 Question & Answer Tasks
+
+Q&A – Asking questions about sources
+
+Source-Based Answer – Answer grounded in uploaded content
+
+Follow-up Question – Question based on previous response
+
+Clarification – Removing confusion
+
+🔹 Note-Taking Tasks
+
+Notes – Written understanding of content
+
+Study Notes – Exam-focused notes
+
+Bullet Points – Short listed points
+
+Outline – Structured summary
+
+Annotation – Notes added to text
+
+🔹 Organization & Analysis
+
+Topic Grouping – Organizing related ideas
+
+Comparison – Finding similarities and differences
+
+Insight Extraction – Finding hidden meaning
+
+Pattern Recognition – Identifying trends
+
+Cross-Reference – Linking multiple sources
+
+🔹 Writing Assistance
+
+Drafting – Creating initial content
+
+Rewriting – Improving text
+
+Simplification – Making content easier
+
+Paraphrasing – Rewriting with same meaning
+
+Tone Adjustment – Changing writing style
+
+🔹 Study & Learning Tasks
+
+Revision – Reviewing material
+
+Exam Preparation – Study-focused output
+
+Flashcards – Question–answer learning cards
+
+Practice Questions – Self-test questions
+
+Learning Aid – Tool that supports learning
+
+🔹 Trust & Accuracy
+
+Grounded Responses – Answers based only on sources
+
+Source Attribution – Showing where answer came from
+
+Hallucination Reduction – Avoiding made-up answers

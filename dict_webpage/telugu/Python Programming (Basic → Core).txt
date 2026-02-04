@@ -1,0 +1,149 @@
+🔹 Python Basics
+
+Python – High-level interpreted programming language
+
+Interpreter – Python code ni line-by-line execute chese program
+
+Script – Python code unna file
+
+REPL – Code read, run, result chupinche interactive mode
+
+Indentation – Code blocks define cheyadaniki spaces use cheyadam
+
+🔹 Data Types
+
+int – Integer numbers
+
+float – Decimal numbers
+
+str – Text data
+
+bool – True or False values
+
+None – Value lekapovadam represent chestundi
+
+🔹 Variables & Assignment
+
+Variable – Value store chese name
+
+Assignment – = use chesi value ivvadam
+
+Dynamic Typing – Variable type runtime lo decide avvadam
+
+🔹 Operators
+
+Arithmetic Operators – + - * / % math operations
+
+Comparison Operators – == != > < values compare cheyadam
+
+Logical Operators – and or not logical conditions
+
+Assignment Operators – = += -= value assign cheyadam
+
+🔹 Control Flow
+
+if – Condition true ayithe code run cheyadam
+
+elif – Additional condition check
+
+else – Condition false ayithe run avvadam
+
+for loop – Sequence meeda iteration
+
+while loop – Condition true unte repeat avvadam
+
+break – Loop ni stop cheyadam
+
+continue – Current iteration skip cheyadam
+
+🔹 Functions
+
+Function – Reusable code block
+
+def – Function define cheyadaniki keyword
+
+Parameter – Function definition lo variable
+
+Argument – Function ki pampina value
+
+return – Value ni back pampadam
+
+🔹 Collections
+
+list – Ordered & changeable collection
+
+tuple – Ordered & change cheyaleni collection
+
+set – Unordered & unique elements collection
+
+dict – Key-value pair collection
+
+Index – Element position
+
+Slice – Sequence part extract cheyadam
+
+🔹 Strings
+
+String – Characters sequence
+
+Concatenation – Strings join cheyadam
+
+Formatting – Structured string create cheyadam
+
+f-string – Modern string formatting method
+
+🔹 Input & Output
+
+input() – User nunchi input tiskovadam
+
+print() – Output display cheyadam
+
+🔹 Modules & Packages
+
+Module – Python code unna file
+
+Package – Modules collection
+
+import – Module load cheyadam
+
+from – Module nunchi specific items import cheyadam
+
+🔹 Errors & Exceptions
+
+Error – Program problem
+
+SyntaxError – Grammar mistake
+
+Runtime Error – Execution time lo error
+
+Exception – Handle cheyagalige error
+
+try / except – Exceptions handle cheyadam
+
+finally – Always execute ayye block
+
+🔹 Files
+
+File – Disk lo store ayina data
+
+open() – File open cheyadam
+
+read() – File content read cheyadam
+
+write() – File lo data rayadam
+
+close() – File close cheyadam
+
+🔹 OOP Basics
+
+Class – Objects create cheyadaniki blueprint
+
+Object – Class instance
+
+Attribute – Object variable
+
+Method – Class function
+
+init – Constructor method
+
+Inheritance – Parent class features reuse cheyadam

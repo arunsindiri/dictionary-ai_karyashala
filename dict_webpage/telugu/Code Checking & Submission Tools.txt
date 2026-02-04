@@ -1,0 +1,67 @@
+🔹 check50 Related Words
+
+check50 – Program correct ga undha ani auto ga test chese tool
+
+Test Case – Program output verify cheyadaniki use chese input
+
+Automated Testing – Predefined tests tho code automatic ga check cheyadam
+
+Validation – Program requirements match ayyindha ani check cheyadam
+
+Output Comparison – Program output ni expected output tho compare cheyadam
+
+Hidden Tests – Student ki kanapadani secret tests
+
+Correctness Checking – Program logic correct aa kadha ani verify cheyadam
+
+Feedback Report – Test result report
+
+🔹 submit50 Related Words
+
+submit50 – Programming assignment submit cheyadaniki use chese tool
+
+Submission – Code ni evaluation system ki pampadam
+
+Repository – Submitted files store chese place
+
+Version Control – Code changes history track cheyadam
+
+Commit – Changes ni repository lo save cheyadam
+
+Upload – Files ni server ki pampadam
+
+Assignment Submission – Complete program ni submit cheyadam
+
+Remote Server – Online storage system
+
+🔹 style50 Related Words
+
+style50 – Code formatting style check chese tool
+
+Code Style – Code rayadaniki standard method
+
+Readability – Code easy ga chadavadaniki & ardham avvadam
+
+Indentation – Code blocks lo proper spacing maintain cheyadam
+
+Naming Convention – Variables/functions ki standard naming rules
+
+Formatting – Code layout ni neat ga arrange cheyadam
+
+Linting – Style & formatting mistakes check cheyadam
+
+Code Quality – Code structure & clarity overall quality
+
+🔹 General Workflow Words
+
+Programming Assignment – Evaluation kosam ichina coding task
+
+Automated Grading – Machine dwara code evaluation
+
+Command-Line Tool – Terminal dwara use chese tool
+
+Evaluation System – Code check chese platform
+
+Coding Standards – Clean code rayadaniki rules
+
+Error Detection – Code lo mistakes kanukodam

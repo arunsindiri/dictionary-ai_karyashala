@@ -1,0 +1,86 @@
+🔹 General Execution Flow Words
+
+Source Code – Developer rayina original program code
+
+Compilation – Source code ni machine ki ardham ayye format lo convert cheyadam
+
+Interpretation – Code ni line-by-line execute cheyadam
+
+Execution – Program instructions run cheyadam
+
+Machine Code – CPU direct ga execute chese binary instructions
+
+Runtime Environment – Program run ayye environment
+
+Loader – Program ni memory lo load chese component
+
+Linking – Program ni libraries tho combine cheyadam
+
+Executable File – System run cheyagalige file
+
+💻 C Language Execution Words
+🔹 C Compilation Process
+
+Preprocessor – #include lanti directives ni handle cheyadam
+
+Macro Expansion – Macros ni actual values tho replace cheyadam
+
+Header File – Function declarations unna file
+
+Compiler – C code ni object code ga convert cheyadam
+
+Object File – Intermediate compiled file
+
+Linker – Object files & libraries ni combine cheyadam
+
+Library – Already rayina reusable code
+
+Executable (.exe / a.out) – Final runnable C program
+
+🐍 Python Execution Words
+🔹 Python Execution Process
+
+Interpreter – Python code ni direct ga execute chese program
+
+Bytecode – Python generate chese intermediate code
+
+.py File – Python source code file
+
+.pyc File – Compiled Python bytecode file
+
+Python Virtual Machine (PVM) – Bytecode ni execute chese engine
+
+Dynamic Typing – Variable type runtime lo decide avvadam
+
+Script Execution – Python script direct ga run cheyadam
+
+☕ Java Execution Words
+🔹 Java Execution Process
+
+Java Compiler (javac) – Java code ni bytecode ga convert cheyadam
+
+Bytecode (.class) – Platform independent intermediate code
+
+Java Virtual Machine (JVM) – Bytecode ni execute chese engine
+
+Java Runtime Environment (JRE) – Java program run avvadanki support environment
+
+Java Development Kit (JDK) – Java development tools package
+
+Class Loader – Class files ni memory lo load cheyadam
+
+Just-In-Time (JIT) Compiler – Bytecode ni runtime lo machine code ga convert cheyadam
+
+Platform Independence – Same program different systems lo run avvadam
+
+🔹 Memory & Runtime Words
+
+Stack Memory – Function calls & local variables store ayye memory
+
+Heap Memory – Dynamic data store ayye memory
+
+Garbage Collection – Unused memory automatic ga clean cheyadam
+
+Process – Run avutunna program
+
+Thread – Process lo small execution unit

@@ -1,0 +1,120 @@
+📘 Dictionary Words
+Contact QR Generation using cURL (URL → QR)
+
+You can directly copy these into your dictionary.
+
+🔹 General Program Words
+
+Program – Set of instructions
+
+Input – Data given to the program
+
+Output – Result produced by program
+
+Command-line Tool – Tool used via terminal
+
+Execution – Running a program
+
+🔹 URL & Data Words
+
+URL (Uniform Resource Locator) – Web address
+
+Link – Clickable web address
+
+Text Data – Information sent as text
+
+Payload – Actual data sent to API
+
+Encoding – Converting data into another format
+
+🔹 QR Code Words
+
+QR Code – Machine-readable code storing data
+
+QR Generation – Creating a QR code
+
+QR Image – Visual form of QR code
+
+Scan – Read QR code using device
+
+Error Correction – QR recovery capability
+
+🔹 cURL Words
+
+cURL – Tool to send/receive data via URLs
+
+Command – Instruction given in terminal
+
+Request – Message sent to server
+
+Response – Data returned by server
+
+Option / Flag – Modifier used in cURL
+
+🔹 cURL Options (important)
+
+-X – Specifies HTTP method
+
+-d – Sends data
+
+-H – Adds header
+
+-o – Saves output to file
+
+--data – Sends request body
+
+--output – Stores response
+
+🔹 HTTP / API Words
+
+HTTP – Communication protocol
+
+HTTPS – Secure HTTP
+
+GET Request – Fetch data
+
+POST Request – Send data
+
+API – Application Programming Interface
+
+Endpoint – API URL
+
+Header – Request metadata
+
+Body – Main request content
+
+Status Code – Server response code
+
+🔹 QR API Specific Words
+
+QR API – Service that generates QR codes
+
+Image Format – PNG, SVG, JPG
+
+Resolution – Image clarity
+
+Size – Dimensions of QR image
+
+Color – QR foreground/background
+
+🔹 File & Output Words
+
+File – Stored data
+
+PNG – Image format
+
+SVG – Vector image format
+
+Download – Save file
+
+File Path – Location of file
+
+Overwrite – Replace existing file
+
+🔹 Security & Validation Words
+
+URL Encoding – Safe URL format
+
+Validation – Checking input correctness
+
+Sanitization – Removing unsafe data

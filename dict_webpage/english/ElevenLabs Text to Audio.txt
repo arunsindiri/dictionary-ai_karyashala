@@ -1,0 +1,102 @@
+📘 Dictionary Words
+ElevenLabs Text-to-Audio
+
+You can directly add these words to your dictionary.
+
+🔹 Core Concepts
+
+Text-to-Speech (TTS) – Converting text into spoken audio
+
+Audio Generation – Creating sound using AI
+
+Voice Synthesis – Artificial creation of human voice
+
+Speech Output – Generated spoken result
+
+Narration – Spoken explanation of text
+
+🔹 Voice & Sound Terms
+
+Voice Model – AI model that produces voice
+
+Natural Voice – Human-like speech
+
+Prosody – Rhythm and intonation of speech
+
+Pitch – High or low tone of voice
+
+Tone – Emotional quality of voice
+
+Accent – Pronunciation style
+
+Clarity – Clearness of speech
+
+🔹 Input & Processing
+
+Text Input – Written content provided
+
+Prompt – Instruction given to AI
+
+Script – Prepared text for narration
+
+Phoneme – Smallest unit of sound
+
+Language Model – Model understanding text
+
+🔹 AI & Model Terms
+
+AI (Artificial Intelligence) – Machine intelligence
+
+Neural Network – Model inspired by human brain
+
+Deep Learning – Multi-layer learning technique
+
+Inference – Generating output from model
+
+Training Data – Data used to train model
+
+🔹 Output & File Formats
+
+Audio Output – Generated sound file
+
+MP3 – Compressed audio format
+
+WAV – High-quality audio format
+
+Sample Rate – Audio quality measurement
+
+Bitrate – Audio data rate
+
+🔹 Control & Customization
+
+Voice Settings – Adjust voice properties
+
+Stability – Consistency of voice
+
+Similarity Boost – Voice likeness control
+
+Emotion Control – Expressive voice tuning
+
+🔹 API & Integration
+
+API – Interface for programmatic access
+
+Endpoint – API access URL
+
+Authentication – API key verification
+
+Request – Data sent to API
+
+Response – Audio returned by API
+
+🔹 Use-Case Words
+
+Voiceover – Spoken audio for video
+
+Audiobook – Book in audio form
+
+Accessibility – Support for disabilities
+
+Content Creation – Making digital content
+
+Localization – Language and accent adaptation

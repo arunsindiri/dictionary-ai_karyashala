@@ -1,0 +1,69 @@
+📘 Dictionary Words
+Code Checking & Submission Tools
+🔹 check50 Related Words
+
+check50 – Automated tool that tests program correctness
+
+Test Case – Input used to verify program output
+
+Automated Testing – Checking code using predefined tests
+
+Validation – Ensuring program meets requirements
+
+Output Comparison – Matching program output with expected output
+
+Hidden Tests – Tests not visible to student
+
+Correctness Checking – Verifying program logic
+
+Feedback Report – Result of test execution
+
+🔹 submit50 Related Words
+
+submit50 – Tool used to submit programming assignments
+
+Submission – Sending code to evaluation system
+
+Repository – Storage location for submitted files
+
+Version Control – Tracking code changes
+
+Commit – Saving changes to repository
+
+Upload – Sending files to server
+
+Assignment Submission – Sending completed program
+
+Remote Server – Online storage system
+
+🔹 style50 Related Words
+
+style50 – Tool that checks code formatting style
+
+Code Style – Standard way of writing code
+
+Readability – Ease of understanding code
+
+Indentation – Proper spacing in code blocks
+
+Naming Convention – Standard variable naming rules
+
+Formatting – Organizing code layout
+
+Linting – Checking style and formatting errors
+
+Code Quality – Overall structure and clarity
+
+🔹 General Workflow Words
+
+Programming Assignment – Coding task for evaluation
+
+Automated Grading – Machine-based evaluation
+
+Command-Line Tool – Tool used through terminal
+
+Evaluation System – Platform checking code
+
+Coding Standards – Rules for writing clean code
+
+Error Detection – Finding mistakes in code
