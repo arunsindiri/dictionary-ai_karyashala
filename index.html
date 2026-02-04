@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smart Dictionary</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f5f5f5;
+        }
+
+        /* ---------- Header ---------- */
+
+        .topbar {
+            position: sticky;
+            top: 0;
+            background: white;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            z-index: 1000;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* ---------- Toggle ---------- */
+
+        .pill-toggle {
+            display: flex;
+            background: #e0e0e0;
+            border-radius: 999px;
+            padding: 4px;
+        }
+
+        .pill-btn {
+            border: none;
+            padding: 8px 18px;
+            border-radius: 999px;
+            cursor: pointer;
+            font-weight: bold;
+            background: transparent;
+            transition: 0.3s;
+        }
+
+        .pill-btn.active {
+            background: #007bff;
+            color: white;
+        }
+
+        /* ---------- Layout ---------- */
+
+        .container {
+            padding: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        .status {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        /* ---------- Dictionary ---------- */
+
+        .topic {
+            background: white;
+            padding: 15px;
+            margin-bottom: 18px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .topic h2 {
+            cursor: pointer;
+            margin: 0;
+        }
+
+        .subtopic {
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+
+        .word {
+            margin-left: 30px;
+            margin-bottom: 10px;
+        }
+
+        .result {
+            background: #fff3cd;
+            padding: 8px;
+            border-radius: 6px;
+            margin-bottom: 6px;
+            cursor: pointer;
+        }
+
+        .empty {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+        }
+
+        /* ---------- Scroll Button ---------- */
+
+        #scrollTopBtn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            display: none;
+            border: none;
+            border-radius: 50%;
+            background: #007bff;
+            color: white;
+            padding: 12px;
+            cursor: pointer;
+        }
+
+        /* ---------- Mobile ---------- */
+
+        @media(max-width:600px) {
+            .title {
+                font-size: 16px
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topbar">
+        <div class="title">📘 Smart Dictionary</div>
+
+        <div class="pill-toggle">
+            <button id="englishBtn" class="pill-btn">English</button>
+            <button id="telugishBtn" class="pill-btn">Telugish</button>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h3>Upload English Folder</h3>
+        <input type="file" id="englishFolder" webkitdirectory multiple>
+        <div id="englishStatus" class="status"></div>
+
+        <h3>Upload Telugish Folder</h3>
+        <input type="file" id="telugishFolder" webkitdirectory multiple>
+        <div id="telugishStatus" class="status"></div>
+
+        <input type="text" id="searchBox" placeholder="Search word...">
+
+        <div id="suggestions"></div>
+        <div id="searchResults"></div>
+        <div id="dictionary"></div>
+
+    </div>
+
+    <button id="scrollTopBtn">⬆</button>
+
+    <script>
+
+        /* ---------- Data ---------- */
+
+        let englishData = {}
+        let telugishData = {}
+        let mergedDictionary = {}
+        let currentLanguage = localStorage.getItem("lang") || "english"
+
+        /* ---------- Toggle ---------- */
+
+        function setLanguage(lang) {
+
+            currentLanguage = lang
+            localStorage.setItem("lang", lang)
+
+            englishBtn.classList.toggle("active", lang === "english")
+            telugishBtn.classList.toggle("active", lang === "telugish")
+
+            displayDictionary()
+            searchBox.dispatchEvent(new Event("input"))
+        }
+
+        englishBtn.onclick = () => setLanguage("english")
+        telugishBtn.onclick = () => setLanguage("telugish")
+
+        setLanguage(currentLanguage)
+
+        /* ---------- UNIVERSAL PARSER ---------- */
+
+        function parseFile(fileName, text, targetObj) {
+
+            let topic = fileName.replace(".txt", "")
+            targetObj[topic] = {}
+
+            let currentSub = "General"
+            targetObj[topic][currentSub] = []
+
+            text.split("\n").forEach(line => {
+
+                line = line.trim()
+                if (!line) return
+
+                if (line.startsWith("🔹")) {
+                    currentSub = line.replace("🔹", "").trim()
+                    targetObj[topic][currentSub] = []
+                    return
+                }
+
+                let parts = line.split(/–|-|:/)
+
+                if (parts.length >= 2) {
+                    targetObj[topic][currentSub].push({
+                        word: parts[0].trim(),
+                        meaning: parts.slice(1).join("-").trim()
+                    })
+                }
+            })
+        }
+
+        /* ---------- Load Folder ---------- */
+
+        function loadFolder(files, targetObj, statusEl, callback) {
+
+            let valid = [...files].filter(f => f.name.endsWith(".txt"))
+
+            if (!valid.length) {
+                statusEl.innerText = "❌ No valid .txt files"
+                return
+            }
+
+            statusEl.innerText = "⏳ Loading..."
+
+            let loaded = 0
+
+            valid.forEach(file => {
+
+                let reader = new FileReader()
+
+                reader.onload = e => {
+                    try {
+                        parseFile(file.name, e.target.result, targetObj)
+                    }
+                    catch (err) {
+                        console.error(err)
+                    }
+
+                    loaded++
+
+                    if (loaded === valid.length) {
+                        statusEl.innerText = `✅ ${loaded} files loaded`
+                        callback()
+                    }
+                }
+
+                reader.readAsText(file)
+            })
+        }
+
+        /* ---------- Merge ---------- */
+
+        function mergeDictionaries() {
+
+            mergedDictionary = {}
+
+            let topics = new Set([
+                ...Object.keys(englishData),
+                ...Object.keys(telugishData)
+            ])
+
+            topics.forEach(topic => {
+
+                mergedDictionary[topic] = {}
+
+                let subs = new Set([
+                    ...Object.keys(englishData[topic] || {}),
+                    ...Object.keys(telugishData[topic] || {})
+                ])
+
+                subs.forEach(sub => {
+
+                    mergedDictionary[topic][sub] = []
+
+                    let eng = englishData[topic]?.[sub] || []
+                    let tel = telugishData[topic]?.[sub] || []
+
+                    let max = Math.max(eng.length, tel.length)
+
+                    for (let i = 0; i < max; i++) {
+                        mergedDictionary[topic][sub].push({
+                            word: eng[i]?.word || tel[i]?.word || "",
+                            english: eng[i]?.meaning || "",
+                            telugish: tel[i]?.meaning || ""
+                        })
+                    }
+                })
+            })
+
+            displayDictionary()
+        }
+
+        /* ---------- Display With Collapsible Tabs ---------- */
+
+        function getMeaning(item) {
+            return currentLanguage === "english" ? item.english : item.telugish
+        }
+
+        function displayDictionary() {
+
+            dictionary.innerHTML = ""
+
+            if (!Object.keys(mergedDictionary).length) {
+                dictionary.innerHTML = `<div class="empty">📂 Upload folders to view dictionary</div>`
+                return
+            }
+
+            for (let topic in mergedDictionary) {
+
+                let count = 0
+                Object.values(mergedDictionary[topic]).forEach(arr => count += arr.length)
+
+                let topicDiv = document.createElement("div")
+                topicDiv.className = "topic"
+
+                let header = document.createElement("h2")
+                header.innerHTML = `▶ 📘 ${topic} (${count})`
+
+                let body = document.createElement("div")
+                body.style.display = "none"
+
+                header.onclick = () => {
+
+                    let open = body.style.display === "none"
+
+                    body.style.display = open ? "block" : "none"
+
+                    header.innerHTML = open
+                        ? `▼ 📘 ${topic} (${count})`
+                        : `▶ 📘 ${topic} (${count})`
+                }
+
+                for (let sub in mergedDictionary[topic]) {
+
+                    let subDiv = document.createElement("div")
+                    subDiv.className = "subtopic"
+                    subDiv.innerHTML = `<h3>🔹 ${sub}</h3>`
+
+                    mergedDictionary[topic][sub].forEach(item => {
+
+                        let meaning = getMeaning(item)
+                        if (!meaning) return
+
+                        let div = document.createElement("div")
+                        div.className = "word"
+                        div.innerHTML = `<b>${item.word}</b><br>${meaning}`
+
+                        subDiv.appendChild(div)
+                    })
+
+                    body.appendChild(subDiv)
+                }
+
+                topicDiv.appendChild(header)
+                topicDiv.appendChild(body)
+                dictionary.appendChild(topicDiv)
+            }
+        }
+
+        /* ---------- Search ---------- */
+
+        searchBox.addEventListener("input", function () {
+
+            let q = this.value.toLowerCase()
+            suggestions.innerHTML = ""
+            searchResults.innerHTML = ""
+
+            if (!q) return
+
+            let matches = []
+
+            for (let topic in mergedDictionary) {
+                for (let sub in mergedDictionary[topic]) {
+
+                    mergedDictionary[topic][sub].forEach(item => {
+
+                        if (item.word.toLowerCase().includes(q)) {
+
+                            matches.push(item.word)
+
+                            let div = document.createElement("div")
+                            div.className = "result"
+                            div.innerHTML = `<b>${item.word}</b><br>${getMeaning(item)}`
+                            searchResults.appendChild(div)
+                        }
+                    })
+                }
+            }
+
+            if (!matches.length) {
+                searchResults.innerHTML = `<div class="empty">No results found</div>`
+            }
+
+            matches.slice(0, 5).forEach(word => {
+                let s = document.createElement("div")
+                s.className = "result"
+                s.innerText = word
+                s.onclick = () => {
+                    searchBox.value = word
+                    searchBox.dispatchEvent(new Event("input"))
+                }
+                suggestions.appendChild(s)
+            })
+        })
+
+        /* ---------- Upload ---------- */
+
+        englishFolder.addEventListener("change", () => {
+            loadFolder(englishFolder.files, englishData, englishStatus, mergeDictionaries)
+        })
+
+        telugishFolder.addEventListener("change", () => {
+            loadFolder(telugishFolder.files, telugishData, telugishStatus, mergeDictionaries)
+        })
+
+        /* ---------- Scroll Button ---------- */
+
+        window.onscroll = () => {
+            scrollTopBtn.style.display = window.scrollY > 200 ? "block" : "none"
+        }
+
+        scrollTopBtn.onclick = () => {
+            window.scrollTo({ top: 0, behavior: "smooth" })
+        }
+
+    </script>
+
+</body>
+
+</html>

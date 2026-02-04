@@ -1,0 +1,103 @@
+🔹 Navigation Commands
+
+pwd – Current working directory chupisthundi
+
+ls – Files & directories list chupisthundi
+
+cd – Directory change cheyadam
+
+tree – Directory structure tree format lo chupisthundi
+
+🔹 File & Directory Commands
+
+touch – Empty file create cheyadam
+
+mkdir – New directory create cheyadam
+
+rmdir – Empty directory delete cheyadam
+
+rm – Files or directories delete cheyadam
+
+cp – Files or directories copy cheyadam
+
+mv – Files move or rename cheyadam
+
+stat – File details chupisthundi
+
+🔹 File Viewing Commands
+
+cat – File content display cheyadam
+
+less – File content page-by-page view cheyadam
+
+more – File content gradual ga chupisthundi
+
+head – File first lines chupisthundi
+
+tail – File last lines chupisthundi
+
+🔹 Search & Filter Commands
+
+grep – Pattern use chesi text search cheyadam
+
+find – Files & directories search cheyadam
+
+locate – Database use chesi files fast ga kanukodam
+
+wc – Lines, words, characters count cheyadam
+
+🔹 Permission & Ownership
+
+chmod – File permissions change cheyadam
+
+chown – File owner change cheyadam
+
+chgrp – File group change cheyadam
+
+umask – Default permissions set cheyadam
+
+🔹 Process Management
+
+ps – Running processes list chupisthundi
+
+top – Live process status chupisthundi
+
+htop – Interactive process viewer
+
+kill – Process stop cheyadam
+
+killall – Process name base chesi stop cheyadam
+
+🔹 Disk & System Info
+
+df – Disk space usage chupisthundi
+
+du – Directory size chupisthundi
+
+free – Memory usage chupisthundi
+
+uname – System information chupisthundi
+
+uptime – System running time chupisthundi
+
+🔹 Networking Basics
+
+ping – Network connectivity check cheyadam
+
+ip – Network configuration chupisthundi
+
+ifconfig – Network interface info (old command)
+
+netstat – Network statistics chupisthundi
+
+🔹 Help & Utility
+
+man – Command manual chupisthundi
+
+history – Previous commands list chupisthundi
+
+clear – Terminal screen clear cheyadam
+
+echo – Terminal lo text print cheyadam
+
+alias – Command shortcut create cheyadam

@@ -1,0 +1,111 @@
+🔹 General Error Concepts
+
+Error – Program correct ga run kakapovadaniki problem
+
+Bug – Program lo mistake
+
+Fault – Error ki main cause
+
+Failure – Program wrong behavior chupinchadam
+
+Debugging – Errors ni kanukoni fix cheyadam
+
+🔹 Syntax & Compile-Time Errors
+
+Syntax Error – Code grammar mistake
+
+Compile-Time Error – Compilation time lo kanipade error
+
+Missing Semicolon – Semicolon pettakapovadam valla error
+
+Invalid Keyword – Wrong or spelling mistake unna keyword
+
+Type Mismatch – Match kakapoye data types use cheyadam
+
+Undeclared Variable – Declare cheyakunda variable use cheyadam
+
+🔹 Runtime Errors
+
+Runtime Error – Program run time lo jarige error
+
+Exception – Runtime lo flow ni stop chese error
+
+Division by Zero – Number ni zero tho divide cheyadam
+
+Null Reference – Empty reference ni access cheyadam
+
+Segmentation Fault – Invalid memory access (C lo common)
+
+Index Out of Range – Invalid index position access cheyadam
+
+🔹 Logical Errors
+
+Logical Error – Program run avutundi kani wrong output isthundi
+
+Incorrect Condition – Decision logic wrong ga undadam
+
+Infinite Loop – End kakunda loop run avutune undadam
+
+Wrong Formula – Calculation logic tappu ga undadam
+
+🔹 Memory-Related Errors
+
+Memory Leak – Use ayina memory release kakapovadam
+
+Stack Overflow – Stack memory limit exceed avvadam
+
+Heap Overflow – Heap memory limit exceed avvadam
+
+Dangling Pointer – Free chesina memory ki pointer undadam
+
+Uninitialized Variable – Value assign cheyakunda variable use cheyadam
+
+🔹 Function & Call Errors
+
+Function Call Error – Function ni wrong ga use cheyadam
+
+Missing Return Statement – Return ivvalasina place lo return lekapovadam
+
+Wrong Argument Count – Arguments ekkuva or takkuva ivvadam
+
+Recursive Error – Base condition lekapovadam
+
+🔹 Python-Specific Error Words
+
+IndentationError – Proper indentation follow kakapovadam
+
+NameError – Define cheyakunda variable use cheyadam
+
+TypeError – Wrong data type meeda operation cheyadam
+
+ValueError – Correct type kani wrong value ivvadam
+
+ZeroDivisionError – Zero tho division
+
+ImportError – Module import kakapovadam
+
+RecursionError – Recursion limit exceed avvadam
+
+🔹 C-Specific Error Words
+
+Compiler Error – Compilation time lo error
+
+Linker Error – Linking process lo error
+
+Segmentation Fault – Illegal memory access
+
+Buffer Overflow – Memory limit kanna ekkuva data rayadam
+
+Undefined Behavior – Program unpredictable ga behave avvadam
+
+🔹 Error Analysis & Learning
+
+Error Message – Error description
+
+Line Number – Error jarigina code location
+
+Traceback – Error time lo call stack details (Python)
+
+Warning – Possible problem kani program stop cheyadu
+
+Reproducible Error – Same steps lo repeat ayye error

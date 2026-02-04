@@ -1,0 +1,84 @@
+📘 Dictionary Words
+Algorithms & Basics – Algorithm Principles
+
+(You can directly add these to your dictionary.)
+
+🔹 End User Experience Words
+
+End User – Person who uses the final program
+
+User Experience (UX) – Overall user interaction quality
+
+Usability – Ease of using the system
+
+User-Friendly – Easy and simple for users
+
+Accessibility – Making system usable for everyone
+
+Interface – Interaction layer between user and program
+
+Responsiveness – Speed of system response
+
+🔹 Meaningful Variable Names Words
+
+Variable Naming – Assigning understandable names to variables
+
+Readability – Ease of understanding code
+
+Self-Documenting Code – Code that explains itself
+
+Naming Convention – Standard rules for naming variables
+
+Identifier – Name given to variable or function
+
+Clarity – Clear and understandable coding style
+
+Maintainability – Ease of modifying code later
+
+🔹 Correctness Using Tracing Words
+
+Tracing – Tracking algorithm steps manually
+
+Dry Run – Step-by-step manual execution
+
+Execution Flow – Order of program steps
+
+State Tracking – Monitoring variable values
+
+Validation – Checking correctness of logic
+
+Test Case – Input used to verify correctness
+
+Debugging – Finding and fixing errors
+
+🔹 Multiple Solutions Words
+
+Alternative Solution – Different ways to solve problem
+
+Optimization – Improving performance
+
+Efficiency – Best use of time and memory
+
+Trade-off – Balancing advantages and disadvantages
+
+Algorithm Comparison – Evaluating different algorithms
+
+Complexity Analysis – Measuring performance
+
+Scalability – Ability to handle larger input
+
+🔹 No Duplicates Words
+
+Uniqueness – Avoiding repeated data
+
+Duplicate Removal – Eliminating repeated values
+
+Data Integrity – Accuracy and consistency of data
+
+Redundancy – Unnecessary repetition of data
+
+Set Structure – Collection with unique elements
+
+Validation Check – Verifying data uniqueness
+
+Consistency – Maintaining uniform data

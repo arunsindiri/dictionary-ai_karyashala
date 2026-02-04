@@ -1,0 +1,112 @@
+📘 Dictionary Words
+Directory Exploration and Deletion
+
+You can directly add these to your dictionary.
+
+🔹 Directory & File Basics
+
+Directory – A folder that contains files and subdirectories
+
+File – A unit of stored data
+
+Path – Location of a file or directory
+
+Absolute Path – Full path from root
+
+Relative Path – Path from current directory
+
+Root Directory – Top-level directory
+
+🔹 Directory Exploration (Traversal)
+
+Directory Traversal – Navigating through directories
+
+Explore – Examine directory contents
+
+List – Display files and folders
+
+Scan – Check directory items
+
+Recursive Traversal – Exploring directories inside directories
+
+Depth-First Search (DFS) – Explore deep first
+
+Breadth-First Search (BFS) – Explore level by level
+
+🔹 Directory Metadata
+
+Metadata – Information about file/directory
+
+File Name – Name of file
+
+Extension – File type suffix
+
+File Size – Size of file
+
+Permissions – Access rights
+
+Owner – File owner
+
+Timestamp – Creation/modification time
+
+🔹 Deletion Concepts
+
+Delete – Remove file or directory
+
+Remove – Another term for delete
+
+Recursive Deletion – Delete directory and all contents
+
+Force Delete – Delete without confirmation
+
+Soft Delete – Mark as deleted (recoverable)
+
+Hard Delete – Permanently remove
+
+🔹 Safety & Validation Words
+
+Confirmation – User approval before delete
+
+Validation – Check before action
+
+Error Handling – Managing failures
+
+Permission Check – Verify access rights
+
+Protected File – File that should not be deleted
+
+🔹 System & OS Words
+
+File System – Manages files and directories
+
+Inode – File metadata structure
+
+Symbolic Link (Symlink) – Shortcut to file/directory
+
+Mount Point – Attached file system
+
+Working Directory – Current directory
+
+🔹 Command-Line Words
+
+ls – List directory contents
+
+cd – Change directory
+
+pwd – Print working directory
+
+rm – Remove file
+
+rmdir – Remove empty directory
+
+rm -r – Recursive delete
+
+🔹 Risk & Protection Words
+
+Accidental Deletion – Unintended delete
+
+Backup – Copy of data
+
+Restore – Recover deleted data
+
+Trash / Recycle Bin – Temporary delete area

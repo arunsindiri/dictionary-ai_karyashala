@@ -1,0 +1,97 @@
+🔹 Core Concepts
+
+Text-to-Speech (TTS) – Text ni spoken audio ga convert cheyadam
+
+Audio Generation – AI tho sound create cheyadam
+
+Voice Synthesis – Artificial human voice create cheyadam
+
+Speech Output – Generated voice result
+
+Narration – Text ni voice tho explain cheyadam
+
+🔹 Voice & Sound Terms
+
+Voice Model – Voice produce chese AI model
+
+Natural Voice – Human la natural ga vinipinche voice
+
+Prosody – Speech rhythm & voice flow
+
+Pitch – Voice high or low tone
+
+Tone – Voice emotional quality
+
+Accent – Pronunciation style
+
+Clarity – Speech clear ga vinipinchadam
+
+🔹 Input & Processing
+
+Text Input – AI ki ichina written content
+
+Prompt – AI ki ichina instruction
+
+Script – Narration kosam ready text
+
+Phoneme – Smallest sound unit
+
+Language Model – Text ardham chesukune AI model
+
+🔹 AI & Model Terms
+
+AI (Artificial Intelligence) – Machine intelligence
+
+Neural Network – Brain style AI model structure
+
+Deep Learning – Multi-layer learning method
+
+Inference – Model nunchi output generate cheyadam
+
+Training Data – Model train cheyadaniki use chese data
+
+🔹 Output & File Formats
+
+Audio Output – Generated sound file
+
+MP3 – Compressed audio format
+
+WAV – High quality audio format
+
+Sample Rate – Audio quality measurement
+
+Bitrate – Audio data speed/quality level
+
+🔹 Control & Customization
+
+Voice Settings – Voice properties adjust cheyadam
+
+Stability – Voice consistency maintain cheyadam
+
+Similarity Boost – Voice likeness control
+
+Emotion Control – Voice expression tuning
+
+🔹 API & Integration
+
+API – Programmatically service access cheyadaniki interface
+
+Endpoint – API access URL
+
+Authentication – API key verification process
+
+Request – API ki pampina data
+
+Response – API nunchi vachina audio output
+
+🔹 Use-Case Words
+
+Voiceover – Video kosam narration audio
+
+Audiobook – Book audio version
+
+Accessibility – Disabilities unna users ki support
+
+Content Creation – Digital content tayar cheyadam
+
+Localization – Language & accent adaptation

@@ -1,0 +1,107 @@
+🔹 Directory & File Basics
+
+Directory – Files & subfolders store chese folder
+
+File – Data store ayye unit
+
+Path – File or directory location
+
+Absolute Path – Root nunchi full location path
+
+Relative Path – Current directory nunchi location path
+
+Root Directory – Top-level main directory
+
+🔹 Directory Exploration (Traversal)
+
+Directory Traversal – Directories madhya navigate cheyadam
+
+Explore – Directory contents examine cheyadam
+
+List – Files & folders display cheyadam
+
+Scan – Directory items check cheyadam
+
+Recursive Traversal – Subdirectories lopala explore cheyadam
+
+Depth-First Search (DFS) – Deep ga first explore cheyadam
+
+Breadth-First Search (BFS) – Level-by-level explore cheyadam
+
+🔹 Directory Metadata
+
+Metadata – File or directory information details
+
+File Name – File peru
+
+Extension – File type suffix
+
+File Size – File storage size
+
+Permissions – Access rights
+
+Owner – File owner
+
+Timestamp – Creation or modification time
+
+🔹 Deletion Concepts
+
+Delete – File or directory remove cheyadam
+
+Remove – Delete ki vere word
+
+Recursive Deletion – Directory tho patu content delete cheyadam
+
+Force Delete – Confirmation lekunda delete cheyadam
+
+Soft Delete – Temporary delete (recover cheyagalamu)
+
+Hard Delete – Permanent delete
+
+🔹 Safety & Validation Words
+
+Confirmation – Delete mundu user approval
+
+Validation – Action mundu checking process
+
+Error Handling – Failures ni manage cheyadam
+
+Permission Check – Access rights verify cheyadam
+
+Protected File – Delete cheyakudadu ani protect chesina file
+
+🔹 System & OS Words
+
+File System – Files & directories manage chese system
+
+Inode – File metadata store chese structure
+
+Symbolic Link (Symlink) – File or directory shortcut
+
+Mount Point – File system attach ayye location
+
+Working Directory – Current directory
+
+🔹 Command-Line Words
+
+ls – Directory contents list cheyadam
+
+cd – Directory change cheyadam
+
+pwd – Current directory chupisthundi
+
+rm – File remove cheyadam
+
+rmdir – Empty directory remove cheyadam
+
+rm -r – Recursive delete command
+
+🔹 Risk & Protection Words
+
+Accidental Deletion – Mistake ga delete cheyadam
+
+Backup – Data copy save cheyadam
+
+Restore – Deleted data recover cheyadam
+
+Trash / Recycle Bin – Temporary delete storage area

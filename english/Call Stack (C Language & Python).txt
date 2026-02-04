@@ -1,0 +1,88 @@
+📘 Dictionary Words
+Call Stack (C Language & Python)
+
+You can directly add these words to your dictionary.
+
+🔹 Core Call Stack Concepts
+
+Call Stack – A stack data structure that stores function calls
+
+Stack Frame – Memory block for one function call
+
+Function Call – Invocation of a function
+
+Return Address – Location to return after function finishes
+
+Last In, First Out (LIFO) – Stack access order
+
+🔹 Function Execution
+
+Caller Function – Function that calls another function
+
+Callee Function – Function being called
+
+Function Return – Sending control back to caller
+
+Execution Flow – Order of function execution
+
+🔹 Stack Memory Terms
+
+Stack Memory – Memory used by call stack
+
+Local Variable – Variable declared inside a function
+
+Parameter – Input value passed to function
+
+Automatic Storage – Variables created and destroyed automatically
+
+🔹 Control & Errors
+
+Stack Overflow – Stack memory limit exceeded
+
+Infinite Recursion – Function calling itself endlessly
+
+Base Case – Condition that stops recursion
+
+🔹 Recursion-Specific Words
+
+Recursion – Function calling itself
+
+Recursive Call – Self-invoking function call
+
+Recursive Depth – Number of nested calls
+
+Unwinding – Stack frames being removed on return
+
+🔹 C Language–Specific Call Stack Words
+
+Function Prototype – Function declaration
+
+Activation Record – Another name for stack frame
+
+Pointer – Variable storing memory address
+
+Return Value – Value returned by function
+
+Stack Pointer – Register pointing to top of stack
+
+🔹 Python-Specific Call Stack Words
+
+Frame Object – Python’s internal stack frame
+
+Traceback – Call stack shown during an error
+
+Exception – Runtime error
+
+Call Depth Limit – Maximum recursion depth
+
+RecursionError – Error when recursion limit is exceeded
+
+🔹 Debugging & Analysis
+
+Debugger – Tool to inspect execution
+
+Backtrace – List of active function calls
+
+Stack Trace – Snapshot of call stack
+
+Breakpoint – Pauses execution

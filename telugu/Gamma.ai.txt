@@ -1,0 +1,95 @@
+🔹 Core Concepts
+
+Gamma.ai – Presentations & documents create cheyadaniki use chese AI tool
+
+AI Presentation Tool – AI help tho slides generate chese software
+
+Content Generation – Text & layout automatic ga create cheyadam
+
+Prompt – AI ki ichina instruction
+
+Template – Ready-made presentation design structure
+
+🔹 Presentation & Document Terms
+
+Slide – Presentation lo single page
+
+Deck – Slides collection
+
+Layout – Slide lo content arrangement
+
+Theme – Presentation overall visual style
+
+Section – Related slides group
+
+Outline – Content structured plan
+
+🔹 AI & Automation Words
+
+Artificial Intelligence (AI) – Machine-based intelligent system
+
+Automation – Tasks automatic ga jaragadam
+
+Smart Formatting – AI layout automatic ga adjust cheyadam
+
+Auto Design – Visual design automatic ga create cheyadam
+
+Content Structuring – Information logical ga organize cheyadam
+
+🔹 Input & Editing
+
+Text Prompt – Content create cheyadaniki written instruction
+
+Editing – Generated content ni modify cheyadam
+
+Regenerate – AI tho content malli create cheyadam
+
+Refine – Output ni improve cheyadam
+
+Customization – Style or content ni adjust cheyadam
+
+🔹 Visual & Media
+
+Visual Blocks – Content modular sections
+
+Image Generation – AI tho images create cheyadam
+
+Icons – Small visual symbols
+
+Charts – Data ni visual ga chupinche diagrams
+
+Embeds – External content insert cheyadam
+
+🔹 Collaboration & Sharing
+
+Collaboration – Multiple users kalisi work cheyadam
+
+Sharing – Content access others ki ivvadam
+
+Commenting – Feedback ivvadam
+
+Version History – Changes record
+
+🔹 Export & Output
+
+Export – Content download cheyadam
+
+PDF – Document file format
+
+PPT – PowerPoint presentation format
+
+Web Link – Share cheyagalige online link
+
+Publish – Content public ga release cheyadam
+
+🔹 Use-Case Words
+
+Pitch Deck – Business presentation slides
+
+Project Report – Project details document
+
+Educational Slides – Learning material presentation
+
+Marketing Presentation – Promotion kosam presentation
+
+Storytelling – Content ni story style lo present cheyadam

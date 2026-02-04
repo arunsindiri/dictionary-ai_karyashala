@@ -1,0 +1,108 @@
+📘 Dictionary Words
+Basic Linux Commands
+
+You can directly add these words and meanings to your dictionary.
+
+🔹 Navigation Commands
+
+pwd – Shows the current working directory
+
+ls – Lists files and directories
+
+cd – Changes directory
+
+tree – Displays directory structure
+
+🔹 File & Directory Commands
+
+touch – Creates an empty file
+
+mkdir – Creates a directory
+
+rmdir – Deletes an empty directory
+
+rm – Deletes files or directories
+
+cp – Copies files or directories
+
+mv – Moves or renames files
+
+stat – Shows file details
+
+🔹 File Viewing Commands
+
+cat – Displays file content
+
+less – Views file content page by page
+
+more – Displays file content gradually
+
+head – Shows first lines of a file
+
+tail – Shows last lines of a file
+
+🔹 Search & Filter Commands
+
+grep – Searches text using patterns
+
+find – Searches files and directories
+
+locate – Finds files quickly using database
+
+wc – Counts lines, words, characters
+
+🔹 Permission & Ownership
+
+chmod – Changes file permissions
+
+chown – Changes file owner
+
+chgrp – Changes group ownership
+
+umask – Sets default permissions
+
+🔹 Process Management
+
+ps – Shows running processes
+
+top – Displays live process status
+
+htop – Interactive process viewer
+
+kill – Stops a process
+
+killall – Stops processes by name
+
+🔹 Disk & System Info
+
+df – Shows disk space usage
+
+du – Shows directory size
+
+free – Shows memory usage
+
+uname – Shows system information
+
+uptime – Shows system running time
+
+🔹 Networking Basics
+
+ping – Checks network connectivity
+
+ip – Shows network configuration
+
+ifconfig – Network interface info (older)
+
+netstat – Network statistics
+
+🔹 Help & Utility
+
+man – Displays command manual
+
+history – Shows command history
+
+clear – Clears terminal screen
+
+echo – Prints text to terminal
+
+alias – Creates command shortcut

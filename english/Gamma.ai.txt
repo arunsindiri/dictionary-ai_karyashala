@@ -1,0 +1,100 @@
+📘 Dictionary Words
+Gamma (Gamma.ai)
+
+You can directly add these words to your dictionary.
+
+🔹 Core Concepts
+
+Gamma.ai – AI tool for creating presentations and documents
+
+AI Presentation Tool – Software that generates slides using AI
+
+Content Generation – Automatically creating text and layouts
+
+Prompt – Instruction given to AI
+
+Template – Pre-designed presentation structure
+
+🔹 Presentation & Document Terms
+
+Slide – Single page of a presentation
+
+Deck – Collection of slides
+
+Layout – Arrangement of content on a slide
+
+Theme – Overall visual style
+
+Section – Group of related slides
+
+Outline – Structured plan of content
+
+🔹 AI & Automation Words
+
+Artificial Intelligence (AI) – Machine-based intelligence
+
+Automation – Tasks done automatically
+
+Smart Formatting – AI-based layout adjustment
+
+Auto Design – Automatic visual design
+
+Content Structuring – Organizing information logically
+
+🔹 Input & Editing
+
+Text Prompt – Written instruction for content creation
+
+Editing – Modifying generated content
+
+Regenerate – Recreate content using AI
+
+Refine – Improve generated output
+
+Customization – Adjusting style or content
+
+🔹 Visual & Media
+
+Visual Blocks – Modular content units
+
+Image Generation – Creating images using AI
+
+Icons – Small visual symbols
+
+Charts – Visual data representation
+
+Embeds – Inserted external content
+
+🔹 Collaboration & Sharing
+
+Collaboration – Multiple users working together
+
+Sharing – Giving access to others
+
+Commenting – Feedback on content
+
+Version History – Record of changes
+
+🔹 Export & Output
+
+Export – Downloading content
+
+PDF – Document file format
+
+PPT – PowerPoint file format
+
+Web Link – Shareable online link
+
+Publish – Make content publicly available
+
+🔹 Use-Case Words
+
+Pitch Deck – Business presentation
+
+Project Report – Documented project details
+
+Educational Slides – Learning material
+
+Marketing Presentation – Promotional content
+
+Storytelling – Presenting content as a narrative

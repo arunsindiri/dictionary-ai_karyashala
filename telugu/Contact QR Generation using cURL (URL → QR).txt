@@ -1,0 +1,115 @@
+🔹 General Program Words
+
+Program – Instructions set computer follow avvadaniki
+
+Input – Program ki ichina data
+
+Output – Program nunchi vachina result
+
+Command-line Tool – Terminal dwara use chese tool
+
+Execution – Program run cheyadam
+
+🔹 URL & Data Words
+
+URL (Uniform Resource Locator) – Website address
+
+Link – Click cheyagalige web address
+
+Text Data – Text form lo information
+
+Payload – API ki pampina actual data
+
+Encoding – Data ni vere format lo convert cheyadam
+
+🔹 QR Code Words
+
+QR Code – Data store chese machine-readable code
+
+QR Generation – QR code create cheyadam
+
+QR Image – QR code visual image
+
+Scan – QR code ni device tho read cheyadam
+
+Error Correction – QR damage ayina data recover cheyagalige ability
+
+🔹 cURL Words
+
+cURL – URLs dwara data send/receive chese tool
+
+Command – Terminal lo ichina instruction
+
+Request – Server ki pampina message
+
+Response – Server nunchi vachina data
+
+Option / Flag – cURL command modifier
+
+🔹 cURL Options (important)
+
+-X – HTTP method specify cheyadam
+
+-d – Data send cheyadam
+
+-H – Header add cheyadam
+
+-o – Output file lo save cheyadam
+
+--data – Request body pampadam
+
+--output – Response ni store cheyadam
+
+🔹 HTTP / API Words
+
+HTTP – Web communication protocol
+
+HTTPS – Secure HTTP
+
+GET Request – Data fetch cheyadam
+
+POST Request – Data send cheyadam
+
+API – Software communication interface
+
+Endpoint – API URL
+
+Header – Request metadata
+
+Body – Main request content
+
+Status Code – Server response number
+
+🔹 QR API Specific Words
+
+QR API – QR codes generate chese service
+
+Image Format – PNG, SVG, JPG lanti formats
+
+Resolution – Image clarity level
+
+Size – QR image dimensions
+
+Color – QR foreground/background colors
+
+🔹 File & Output Words
+
+File – Stored data unit
+
+PNG – Image file format
+
+SVG – Vector image format
+
+Download – File save cheyadam
+
+File Path – File location
+
+Overwrite – Existing file replace cheyadam
+
+🔹 Security & Validation Words
+
+URL Encoding – URL safe format lo convert cheyadam
+
+Validation – Input correct aa ani check cheyadam
+
+Sanitization – Unsafe data remove cheyadam

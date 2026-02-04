@@ -1,0 +1,83 @@
+🔹 Core Call Stack Concepts
+
+Call Stack – Function calls store chese stack data structure
+
+Stack Frame – Oka function call kosam memory block
+
+Function Call – Function ni invoke cheyadam
+
+Return Address – Function complete ayyaka back vellali ani store ayye location
+
+Last In, First Out (LIFO) – Last ga vachindi first ga bayataki vastundi stack rule
+
+🔹 Function Execution
+
+Caller Function – Vere function ni call chese function
+
+Callee Function – Call ayina function
+
+Function Return – Control ni caller function ki back pampadam
+
+Execution Flow – Functions execute ayye order
+
+🔹 Stack Memory Terms
+
+Stack Memory – Call stack use chese memory
+
+Local Variable – Function lopala declare chese variable
+
+Parameter – Function ki pampina input value
+
+Automatic Storage – Variables automatic ga create & delete avvadam
+
+🔹 Control & Errors
+
+Stack Overflow – Stack memory limit exceed avvadam
+
+Infinite Recursion – Function endless ga self call cheyadam
+
+Base Case – Recursion stop cheyadaniki condition
+
+🔹 Recursion-Specific Words
+
+Recursion – Function self ni call cheyadam
+
+Recursive Call – Self invoking function call
+
+Recursive Depth – Nested recursive calls count
+
+Unwinding – Return time lo stack frames remove avvadam
+
+🔹 C Language–Specific Call Stack Words
+
+Function Prototype – Function declaration format
+
+Activation Record – Stack frame ki vere name
+
+Pointer – Memory address store chese variable
+
+Return Value – Function return chese value
+
+Stack Pointer – Stack top location chupinche register
+
+🔹 Python-Specific Call Stack Words
+
+Frame Object – Python internal stack frame structure
+
+Traceback – Error time lo call stack details
+
+Exception – Runtime error
+
+Call Depth Limit – Maximum recursion calls limit
+
+RecursionError – Recursion limit exceed ayina error
+
+🔹 Debugging & Analysis
+
+Debugger – Program execution inspect chese tool
+
+Backtrace – Active function calls list
+
+Stack Trace – Call stack snapshot
+
+Breakpoint – Execution ni pause chese point
