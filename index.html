@@ -137,9 +137,24 @@ input{
 
 let mergedDictionary={}
 let currentLanguage=localStorage.getItem("lang")||"english"
-
-/* ⭐ Track opened tabs */
 let openedTopics = new Set()
+
+/* ⭐ Topic Order */
+const topicOrder = [
+    "Algorithms & Basics",
+    "Basic Linux Commands",
+    "Directory Exploration and Deletion",
+    "File execution flow",
+    "Python Programming (Basic → Core)",
+    "Call Stack (C Language & Python)",
+    "Creating a Static Webpage using Basic HTML",
+    "Code Checking & Submission Tools",
+    "NotebookLM tasks",
+    "Gamma.ai",
+    "ElevenLabs Text to Audio",
+    "Contact QR Generation using cURL (URL → QR)",
+    "General Error Concepts"
+]
 
 /* ---------- Load JSON ---------- */
 
@@ -183,6 +198,67 @@ function getMeaning(item){
     return currentLanguage==="english"?item.english:item.telugish
 }
 
+function createTopicUI(topic){
+
+    let count=0
+    Object.values(mergedDictionary[topic]).forEach(arr=>count+=arr.length)
+
+    let topicDiv=document.createElement("div")
+    topicDiv.className="topic"
+
+    let header=document.createElement("h2")
+    let body=document.createElement("div")
+
+    let isOpen = openedTopics.has(topic)
+    body.style.display = isOpen ? "block" : "none"
+
+    header.innerHTML = isOpen
+        ? `▼ 📘 ${topic} (${count})`
+        : `▶ 📘 ${topic} (${count})`
+
+    header.onclick=()=>{
+        let open=body.style.display==="none"
+
+        body.style.display=open?"block":"none"
+
+        header.innerHTML=open
+            ? `▼ 📘 ${topic} (${count})`
+            : `▶ 📘 ${topic} (${count})`
+
+        if(open){
+            openedTopics.add(topic)
+        }else{
+            openedTopics.delete(topic)
+        }
+    }
+
+    for(let sub in mergedDictionary[topic]){
+
+        let subDiv=document.createElement("div")
+        subDiv.className="subtopic"
+        subDiv.innerHTML=`<h3>🔹 ${sub}</h3>`
+
+        mergedDictionary[topic][sub].forEach(item=>{
+
+            let meaning=getMeaning(item)
+            if(!meaning) return
+
+            let div=document.createElement("div")
+            div.className="word"
+            div.innerHTML=`<b>${item.word}</b><br>${meaning}`
+
+            subDiv.appendChild(div)
+        })
+
+        body.appendChild(subDiv)
+    }
+
+    topicDiv.appendChild(header)
+    topicDiv.appendChild(body)
+
+    dictionary.appendChild(topicDiv)
+}
+
 function displayDictionary(){
 
     dictionary.innerHTML=""
@@ -192,68 +268,17 @@ function displayDictionary(){
         return
     }
 
+    /* ⭐ Show topics in custom order */
+    for(let topic of topicOrder){
+        if(mergedDictionary[topic]){
+            createTopicUI(topic)
+        }
+    }
+
+    /* ⭐ Show remaining topics */
     for(let topic in mergedDictionary){
-
-        let count=0
-        Object.values(mergedDictionary[topic]).forEach(arr=>count+=arr.length)
-
-        let topicDiv=document.createElement("div")
-        topicDiv.className="topic"
-
-        let header=document.createElement("h2")
-
-        let body=document.createElement("div")
-
-        /* ⭐ Restore open state */
-        let isOpen = openedTopics.has(topic)
-        body.style.display = isOpen ? "block" : "none"
-
-        header.innerHTML = isOpen
-            ? `▼ 📘 ${topic} (${count})`
-            : `▶ 📘 ${topic} (${count})`
-
-        header.onclick=()=>{
-
-            let open=body.style.display==="none"
-
-            body.style.display=open?"block":"none"
-
-            header.innerHTML=open
-                ? `▼ 📘 ${topic} (${count})`
-                : `▶ 📘 ${topic} (${count})`
-
-            /* ⭐ Save state */
-            if(open){
-                openedTopics.add(topic)
-            }else{
-                openedTopics.delete(topic)
-            }
-        }
-
-        for(let sub in mergedDictionary[topic]){
-
-            let subDiv=document.createElement("div")
-            subDiv.className="subtopic"
-            subDiv.innerHTML=`<h3>🔹 ${sub}</h3>`
-
-            mergedDictionary[topic][sub].forEach(item=>{
-
-                let meaning=getMeaning(item)
-                if(!meaning) return
-
-                let div=document.createElement("div")
-                div.className="word"
-                div.innerHTML=`<b>${item.word}</b><br>${meaning}`
-
-                subDiv.appendChild(div)
-            })
-
-            body.appendChild(subDiv)
-        }
-
-        topicDiv.appendChild(header)
-        topicDiv.appendChild(body)
-        dictionary.appendChild(topicDiv)
+        if(topicOrder.includes(topic)) continue
+        createTopicUI(topic)
     }
 }
 
