@@ -139,27 +139,26 @@ let mergedDictionary={}
 let currentLanguage=localStorage.getItem("lang")||"english"
 let openedTopics = new Set()
 
-/* ⭐ Topic Order */
+/* ⭐ YOUR ORDER */
 const topicOrder = [
     "Algorithms & Basics",
     "Basic Linux Commands",
     "Directory Exploration and Deletion",
-    "File execution flow",
     "Python Programming (Basic → Core)",
-    "Call Stack (C Language & Python)",
-    "Creating a Static Webpage using Basic HTML",
+    "General Error Concepts",
     "Code Checking & Submission Tools",
-    "NotebookLM tasks",
-    "Gamma.ai",
-    "ElevenLabs Text to Audio",
+    "Call Stack (C Language & Python)",
+    "File execution flow",
+    "Creating a Static Webpage using Basic HTML",
     "Contact QR Generation using cURL (URL → QR)",
-    "General Error Concepts"
+    "NotebookLM tasks",
+    "ElevenLabs Text to Audio",
+    "Gamma.ai"
 ]
 
 /* ---------- Load JSON ---------- */
 
 async function loadDictionary(){
-
     try{
         let res = await fetch("dictionary.json")
         mergedDictionary = await res.json()
@@ -255,7 +254,6 @@ function createTopicUI(topic){
 
     topicDiv.appendChild(header)
     topicDiv.appendChild(body)
-
     dictionary.appendChild(topicDiv)
 }
 
@@ -268,14 +266,14 @@ function displayDictionary(){
         return
     }
 
-    /* ⭐ Show topics in custom order */
+    /* ⭐ Show in your order */
     for(let topic of topicOrder){
         if(mergedDictionary[topic]){
             createTopicUI(topic)
         }
     }
 
-    /* ⭐ Show remaining topics */
+    /* ⭐ Show extra topics if exist */
     for(let topic in mergedDictionary){
         if(topicOrder.includes(topic)) continue
         createTopicUI(topic)
