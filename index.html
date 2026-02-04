@@ -107,10 +107,6 @@ input{
     padding:12px;
     cursor:pointer;
 }
-
-@media(max-width:600px){
-    .title{font-size:16px}
-}
 </style>
 </head>
 
@@ -142,14 +138,16 @@ input{
 let mergedDictionary={}
 let currentLanguage=localStorage.getItem("lang")||"english"
 
-/* ---------- Load JSON Automatically ---------- */
+/* ⭐ Track opened tabs */
+let openedTopics = new Set()
+
+/* ---------- Load JSON ---------- */
 
 async function loadDictionary(){
 
     try{
         let res = await fetch("dictionary.json")
         mergedDictionary = await res.json()
-
         displayDictionary()
     }
     catch(err){
@@ -203,18 +201,33 @@ function displayDictionary(){
         topicDiv.className="topic"
 
         let header=document.createElement("h2")
-        header.innerHTML=`▶ 📘 ${topic} (${count})`
 
         let body=document.createElement("div")
-        body.style.display="none"
+
+        /* ⭐ Restore open state */
+        let isOpen = openedTopics.has(topic)
+        body.style.display = isOpen ? "block" : "none"
+
+        header.innerHTML = isOpen
+            ? `▼ 📘 ${topic} (${count})`
+            : `▶ 📘 ${topic} (${count})`
 
         header.onclick=()=>{
+
             let open=body.style.display==="none"
+
             body.style.display=open?"block":"none"
 
             header.innerHTML=open
                 ? `▼ 📘 ${topic} (${count})`
                 : `▶ 📘 ${topic} (${count})`
+
+            /* ⭐ Save state */
+            if(open){
+                openedTopics.add(topic)
+            }else{
+                openedTopics.delete(topic)
+            }
         }
 
         for(let sub in mergedDictionary[topic]){
