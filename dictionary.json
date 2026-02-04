@@ -1,0 +1,3006 @@
+{
+  "Call Stack (C Language & Python)": {
+    "Function Execution": [
+      {
+        "word": "Caller Function",
+        "english": "Function that calls another function",
+        "telugish": "Vere function ni call chese function"
+      },
+      {
+        "word": "Callee Function",
+        "english": "Function being called",
+        "telugish": "Call ayina function"
+      },
+      {
+        "word": "Function Return",
+        "english": "Sending control back to caller",
+        "telugish": "Control ni caller function ki back pampadam"
+      },
+      {
+        "word": "Execution Flow",
+        "english": "Order of function execution",
+        "telugish": "Functions execute ayye order"
+      }
+    ],
+    "General": [],
+    "Core Call Stack Concepts": [
+      {
+        "word": "Call Stack",
+        "english": "A stack data structure that stores function calls",
+        "telugish": "Function calls store chese stack data structure"
+      },
+      {
+        "word": "Stack Frame",
+        "english": "Memory block for one function call",
+        "telugish": "Oka function call kosam memory block"
+      },
+      {
+        "word": "Function Call",
+        "english": "Invocation of a function",
+        "telugish": "Function ni invoke cheyadam"
+      },
+      {
+        "word": "Return Address",
+        "english": "Location to return after function finishes",
+        "telugish": "Function complete ayyaka back vellali ani store ayye location"
+      },
+      {
+        "word": "Last In, First Out (LIFO)",
+        "english": "Stack access order",
+        "telugish": "Last ga vachindi first ga bayataki vastundi stack rule"
+      }
+    ],
+    "Control & Errors": [
+      {
+        "word": "Stack Overflow",
+        "english": "Stack memory limit exceeded",
+        "telugish": "Stack memory limit exceed avvadam"
+      },
+      {
+        "word": "Infinite Recursion",
+        "english": "Function calling itself endlessly",
+        "telugish": "Function endless ga self call cheyadam"
+      },
+      {
+        "word": "Base Case",
+        "english": "Condition that stops recursion",
+        "telugish": "Recursion stop cheyadaniki condition"
+      }
+    ],
+    "Stack Memory Terms": [
+      {
+        "word": "Stack Memory",
+        "english": "Memory used by call stack",
+        "telugish": "Call stack use chese memory"
+      },
+      {
+        "word": "Local Variable",
+        "english": "Variable declared inside a function",
+        "telugish": "Function lopala declare chese variable"
+      },
+      {
+        "word": "Parameter",
+        "english": "Input value passed to function",
+        "telugish": "Function ki pampina input value"
+      },
+      {
+        "word": "Automatic Storage",
+        "english": "Variables created and destroyed automatically",
+        "telugish": "Variables automatic ga create & delete avvadam"
+      }
+    ],
+    "Recursion-Specific Words": [
+      {
+        "word": "Recursion",
+        "english": "Function calling itself",
+        "telugish": "Function self ni call cheyadam"
+      },
+      {
+        "word": "Recursive Call",
+        "english": "Self-invoking function call",
+        "telugish": "Self invoking function call"
+      },
+      {
+        "word": "Recursive Depth",
+        "english": "Number of nested calls",
+        "telugish": "Nested recursive calls count"
+      },
+      {
+        "word": "Unwinding",
+        "english": "Stack frames being removed on return",
+        "telugish": "Return time lo stack frames remove avvadam"
+      }
+    ],
+    "C Language–Specific Call Stack Words": [
+      {
+        "word": "Function Prototype",
+        "english": "Function declaration",
+        "telugish": "Function declaration format"
+      },
+      {
+        "word": "Activation Record",
+        "english": "Another name for stack frame",
+        "telugish": "Stack frame ki vere name"
+      },
+      {
+        "word": "Pointer",
+        "english": "Variable storing memory address",
+        "telugish": "Memory address store chese variable"
+      },
+      {
+        "word": "Return Value",
+        "english": "Value returned by function",
+        "telugish": "Function return chese value"
+      },
+      {
+        "word": "Stack Pointer",
+        "english": "Register pointing to top of stack",
+        "telugish": "Stack top location chupinche register"
+      }
+    ],
+    "Debugging & Analysis": [
+      {
+        "word": "Debugger",
+        "english": "Tool to inspect execution",
+        "telugish": "Program execution inspect chese tool"
+      },
+      {
+        "word": "Backtrace",
+        "english": "List of active function calls",
+        "telugish": "Active function calls list"
+      },
+      {
+        "word": "Stack Trace",
+        "english": "Snapshot of call stack",
+        "telugish": "Call stack snapshot"
+      },
+      {
+        "word": "Breakpoint",
+        "english": "Pauses execution",
+        "telugish": "Execution ni pause chese point"
+      }
+    ],
+    "Python-Specific Call Stack Words": [
+      {
+        "word": "Frame Object",
+        "english": "Python’s internal stack frame",
+        "telugish": "Python internal stack frame structure"
+      },
+      {
+        "word": "Traceback",
+        "english": "Call stack shown during an error",
+        "telugish": "Error time lo call stack details"
+      },
+      {
+        "word": "Exception",
+        "english": "Runtime error",
+        "telugish": "Runtime error"
+      },
+      {
+        "word": "Call Depth Limit",
+        "english": "Maximum recursion depth",
+        "telugish": "Maximum recursion calls limit"
+      },
+      {
+        "word": "RecursionError",
+        "english": "Error when recursion limit is exceeded",
+        "telugish": "Recursion limit exceed ayina error"
+      }
+    ]
+  },
+  "Contact QR Generation using cURL (URL → QR)": {
+    "General Program Words": [
+      {
+        "word": "Program",
+        "english": "Set of instructions",
+        "telugish": "Instructions set computer follow avvadaniki"
+      },
+      {
+        "word": "Input",
+        "english": "Data given to the program",
+        "telugish": "Program ki ichina data"
+      },
+      {
+        "word": "Output",
+        "english": "Result produced by program",
+        "telugish": "Program nunchi vachina result"
+      },
+      {
+        "word": "Command",
+        "english": "line Tool - Tool used via terminal",
+        "telugish": "line Tool - Terminal dwara use chese tool"
+      },
+      {
+        "word": "Execution",
+        "english": "Running a program",
+        "telugish": "Program run cheyadam"
+      }
+    ],
+    "QR Code Words": [
+      {
+        "word": "QR Code",
+        "english": "Machine-readable code storing data",
+        "telugish": "Data store chese machine-readable code"
+      },
+      {
+        "word": "QR Generation",
+        "english": "Creating a QR code",
+        "telugish": "QR code create cheyadam"
+      },
+      {
+        "word": "QR Image",
+        "english": "Visual form of QR code",
+        "telugish": "QR code visual image"
+      },
+      {
+        "word": "Scan",
+        "english": "Read QR code using device",
+        "telugish": "QR code ni device tho read cheyadam"
+      },
+      {
+        "word": "Error Correction",
+        "english": "QR recovery capability",
+        "telugish": "QR damage ayina data recover cheyagalige ability"
+      }
+    ],
+    "Security & Validation Words": [
+      {
+        "word": "URL Encoding",
+        "english": "Safe URL format",
+        "telugish": "URL safe format lo convert cheyadam"
+      },
+      {
+        "word": "Validation",
+        "english": "Checking input correctness",
+        "telugish": "Input correct aa ani check cheyadam"
+      },
+      {
+        "word": "Sanitization",
+        "english": "Removing unsafe data",
+        "telugish": "Unsafe data remove cheyadam"
+      }
+    ],
+    "cURL Options (important)": [
+      {
+        "word": "",
+        "english": "X - Specifies HTTP method",
+        "telugish": "X - HTTP method specify cheyadam"
+      },
+      {
+        "word": "",
+        "english": "d - Sends data",
+        "telugish": "d - Data send cheyadam"
+      },
+      {
+        "word": "",
+        "english": "H - Adds header",
+        "telugish": "H - Header add cheyadam"
+      },
+      {
+        "word": "",
+        "english": "o - Saves output to file",
+        "telugish": "o - Output file lo save cheyadam"
+      },
+      {
+        "word": "",
+        "english": "-data - Sends request body",
+        "telugish": "-data - Request body pampadam"
+      },
+      {
+        "word": "",
+        "english": "-output - Stores response",
+        "telugish": "-output - Response ni store cheyadam"
+      }
+    ],
+    "QR API Specific Words": [
+      {
+        "word": "QR API",
+        "english": "Service that generates QR codes",
+        "telugish": "QR codes generate chese service"
+      },
+      {
+        "word": "Image Format",
+        "english": "PNG, SVG, JPG",
+        "telugish": "PNG, SVG, JPG lanti formats"
+      },
+      {
+        "word": "Resolution",
+        "english": "Image clarity",
+        "telugish": "Image clarity level"
+      },
+      {
+        "word": "Size",
+        "english": "Dimensions of QR image",
+        "telugish": "QR image dimensions"
+      },
+      {
+        "word": "Color",
+        "english": "QR foreground/background",
+        "telugish": "QR foreground/background colors"
+      }
+    ],
+    "General": [],
+    "cURL Words": [
+      {
+        "word": "cURL",
+        "english": "Tool to send/receive data via URLs",
+        "telugish": "URLs dwara data send/receive chese tool"
+      },
+      {
+        "word": "Command",
+        "english": "Instruction given in terminal",
+        "telugish": "Terminal lo ichina instruction"
+      },
+      {
+        "word": "Request",
+        "english": "Message sent to server",
+        "telugish": "Server ki pampina message"
+      },
+      {
+        "word": "Response",
+        "english": "Data returned by server",
+        "telugish": "Server nunchi vachina data"
+      },
+      {
+        "word": "Option / Flag",
+        "english": "Modifier used in cURL",
+        "telugish": "cURL command modifier"
+      }
+    ],
+    "URL & Data Words": [
+      {
+        "word": "URL (Uniform Resource Locator)",
+        "english": "Web address",
+        "telugish": "Website address"
+      },
+      {
+        "word": "Link",
+        "english": "Clickable web address",
+        "telugish": "Click cheyagalige web address"
+      },
+      {
+        "word": "Text Data",
+        "english": "Information sent as text",
+        "telugish": "Text form lo information"
+      },
+      {
+        "word": "Payload",
+        "english": "Actual data sent to API",
+        "telugish": "API ki pampina actual data"
+      },
+      {
+        "word": "Encoding",
+        "english": "Converting data into another format",
+        "telugish": "Data ni vere format lo convert cheyadam"
+      }
+    ],
+    "File & Output Words": [
+      {
+        "word": "File",
+        "english": "Stored data",
+        "telugish": "Stored data unit"
+      },
+      {
+        "word": "PNG",
+        "english": "Image format",
+        "telugish": "Image file format"
+      },
+      {
+        "word": "SVG",
+        "english": "Vector image format",
+        "telugish": "Vector image format"
+      },
+      {
+        "word": "Download",
+        "english": "Save file",
+        "telugish": "File save cheyadam"
+      },
+      {
+        "word": "File Path",
+        "english": "Location of file",
+        "telugish": "File location"
+      },
+      {
+        "word": "Overwrite",
+        "english": "Replace existing file",
+        "telugish": "Existing file replace cheyadam"
+      }
+    ],
+    "HTTP / API Words": [
+      {
+        "word": "HTTP",
+        "english": "Communication protocol",
+        "telugish": "Web communication protocol"
+      },
+      {
+        "word": "HTTPS",
+        "english": "Secure HTTP",
+        "telugish": "Secure HTTP"
+      },
+      {
+        "word": "GET Request",
+        "english": "Fetch data",
+        "telugish": "Data fetch cheyadam"
+      },
+      {
+        "word": "POST Request",
+        "english": "Send data",
+        "telugish": "Data send cheyadam"
+      },
+      {
+        "word": "API",
+        "english": "Application Programming Interface",
+        "telugish": "Software communication interface"
+      },
+      {
+        "word": "Endpoint",
+        "english": "API URL",
+        "telugish": "API URL"
+      },
+      {
+        "word": "Header",
+        "english": "Request metadata",
+        "telugish": "Request metadata"
+      },
+      {
+        "word": "Body",
+        "english": "Main request content",
+        "telugish": "Main request content"
+      },
+      {
+        "word": "Status Code",
+        "english": "Server response code",
+        "telugish": "Server response number"
+      }
+    ]
+  },
+  "Python Programming (Basic → Core)": {
+    "Errors & Exceptions": [
+      {
+        "word": "Error",
+        "english": "Problem in program",
+        "telugish": "Program problem"
+      },
+      {
+        "word": "SyntaxError",
+        "english": "Grammar mistake",
+        "telugish": "Grammar mistake"
+      },
+      {
+        "word": "Runtime Error",
+        "english": "Error during execution",
+        "telugish": "Execution time lo error"
+      },
+      {
+        "word": "Exception",
+        "english": "Error that can be handled",
+        "telugish": "Handle cheyagalige error"
+      },
+      {
+        "word": "try / except",
+        "english": "Handles exceptions",
+        "telugish": "Exceptions handle cheyadam"
+      },
+      {
+        "word": "finally",
+        "english": "Always executed block",
+        "telugish": "Always execute ayye block"
+      }
+    ],
+    "Modules & Packages": [
+      {
+        "word": "Module",
+        "english": "File containing Python code",
+        "telugish": "Python code unna file"
+      },
+      {
+        "word": "Package",
+        "english": "Collection of modules",
+        "telugish": "Modules collection"
+      },
+      {
+        "word": "import",
+        "english": "Loads module",
+        "telugish": "Module load cheyadam"
+      },
+      {
+        "word": "from",
+        "english": "Imports specific items",
+        "telugish": "Module nunchi specific items import cheyadam"
+      }
+    ],
+    "Operators": [
+      {
+        "word": "Arithmetic Operators",
+        "english": "+ - * / %",
+        "telugish": "+ - * / % math operations"
+      },
+      {
+        "word": "Comparison Operators",
+        "english": "== != > <",
+        "telugish": "== != > < values compare cheyadam"
+      },
+      {
+        "word": "Logical Operators",
+        "english": "and or not",
+        "telugish": "and or not logical conditions"
+      },
+      {
+        "word": "Assignment Operators",
+        "english": "= += -=",
+        "telugish": "= += -= value assign cheyadam"
+      }
+    ],
+    "Control Flow": [
+      {
+        "word": "if",
+        "english": "Executes code when condition is true",
+        "telugish": "Condition true ayithe code run cheyadam"
+      },
+      {
+        "word": "elif",
+        "english": "Else-if condition",
+        "telugish": "Additional condition check"
+      },
+      {
+        "word": "else",
+        "english": "Executes when condition is false",
+        "telugish": "Condition false ayithe run avvadam"
+      },
+      {
+        "word": "for loop",
+        "english": "Iterates over a sequence",
+        "telugish": "Sequence meeda iteration"
+      },
+      {
+        "word": "while loop",
+        "english": "Repeats while condition is true",
+        "telugish": "Condition true unte repeat avvadam"
+      },
+      {
+        "word": "break",
+        "english": "Stops loop",
+        "telugish": "Loop ni stop cheyadam"
+      },
+      {
+        "word": "continue",
+        "english": "Skips current iteration",
+        "telugish": "Current iteration skip cheyadam"
+      }
+    ],
+    "Data Types": [
+      {
+        "word": "int",
+        "english": "Integer numbers",
+        "telugish": "Integer numbers"
+      },
+      {
+        "word": "float",
+        "english": "Decimal numbers",
+        "telugish": "Decimal numbers"
+      },
+      {
+        "word": "str",
+        "english": "Text data (string)",
+        "telugish": "Text data"
+      },
+      {
+        "word": "bool",
+        "english": "True or False",
+        "telugish": "True or False values"
+      },
+      {
+        "word": "None",
+        "english": "Represents no value",
+        "telugish": "Value lekapovadam represent chestundi"
+      }
+    ],
+    "Input & Output": [
+      {
+        "word": "input()",
+        "english": "Takes user input",
+        "telugish": "User nunchi input tiskovadam"
+      },
+      {
+        "word": "print()",
+        "english": "Displays output",
+        "telugish": "Output display cheyadam"
+      }
+    ],
+    "Strings": [
+      {
+        "word": "String",
+        "english": "Sequence of characters",
+        "telugish": "Characters sequence"
+      },
+      {
+        "word": "Concatenation",
+        "english": "Joining strings",
+        "telugish": "Strings join cheyadam"
+      },
+      {
+        "word": "Formatting",
+        "english": "Creating formatted strings",
+        "telugish": "Structured string create cheyadam"
+      },
+      {
+        "word": "f",
+        "english": "string - Modern string formatting",
+        "telugish": "string - Modern string formatting method"
+      }
+    ],
+    "Files": [
+      {
+        "word": "File",
+        "english": "Stored data on disk",
+        "telugish": "Disk lo store ayina data"
+      },
+      {
+        "word": "open()",
+        "english": "Opens a file",
+        "telugish": "File open cheyadam"
+      },
+      {
+        "word": "read()",
+        "english": "Reads file content",
+        "telugish": "File content read cheyadam"
+      },
+      {
+        "word": "write()",
+        "english": "Writes to file",
+        "telugish": "File lo data rayadam"
+      },
+      {
+        "word": "close()",
+        "english": "Closes file",
+        "telugish": "File close cheyadam"
+      }
+    ],
+    "OOP Basics": [
+      {
+        "word": "Class",
+        "english": "Blueprint for objects",
+        "telugish": "Objects create cheyadaniki blueprint"
+      },
+      {
+        "word": "Object",
+        "english": "Instance of class",
+        "telugish": "Class instance"
+      },
+      {
+        "word": "Attribute",
+        "english": "Variable of object",
+        "telugish": "Object variable"
+      },
+      {
+        "word": "Method",
+        "english": "Function of class",
+        "telugish": "Class function"
+      },
+      {
+        "word": "init",
+        "english": "Constructor method",
+        "telugish": "Constructor method"
+      },
+      {
+        "word": "Inheritance",
+        "english": "Reusing class features",
+        "telugish": "Parent class features reuse cheyadam"
+      }
+    ],
+    "General": [],
+    "Functions": [
+      {
+        "word": "Function",
+        "english": "Reusable block of code",
+        "telugish": "Reusable code block"
+      },
+      {
+        "word": "def",
+        "english": "Keyword to define function",
+        "telugish": "Function define cheyadaniki keyword"
+      },
+      {
+        "word": "Parameter",
+        "english": "Variable in function definition",
+        "telugish": "Function definition lo variable"
+      },
+      {
+        "word": "Argument",
+        "english": "Value passed to function",
+        "telugish": "Function ki pampina value"
+      },
+      {
+        "word": "return",
+        "english": "Sends value back",
+        "telugish": "Value ni back pampadam"
+      }
+    ],
+    "Variables & Assignment": [
+      {
+        "word": "Variable",
+        "english": "Name that stores a value",
+        "telugish": "Value store chese name"
+      },
+      {
+        "word": "Assignment",
+        "english": "Giving value using =",
+        "telugish": "= use chesi value ivvadam"
+      },
+      {
+        "word": "Dynamic Typing",
+        "english": "Type decided at runtime",
+        "telugish": "Variable type runtime lo decide avvadam"
+      }
+    ],
+    "Python Basics": [
+      {
+        "word": "Python",
+        "english": "High-level, interpreted programming language",
+        "telugish": "High-level interpreted programming language"
+      },
+      {
+        "word": "Interpreter",
+        "english": "Executes Python code line by line",
+        "telugish": "Python code ni line-by-line execute chese program"
+      },
+      {
+        "word": "Script",
+        "english": "Python file containing code",
+        "telugish": "Python code unna file"
+      },
+      {
+        "word": "REPL",
+        "english": "Read-Eval-Print Loop",
+        "telugish": "Code read, run, result chupinche interactive mode"
+      },
+      {
+        "word": "Indentation",
+        "english": "Spaces used to define code blocks",
+        "telugish": "Code blocks define cheyadaniki spaces use cheyadam"
+      }
+    ],
+    "Collections": [
+      {
+        "word": "list",
+        "english": "Ordered, changeable collection",
+        "telugish": "Ordered & changeable collection"
+      },
+      {
+        "word": "tuple",
+        "english": "Ordered, unchangeable collection",
+        "telugish": "Ordered & change cheyaleni collection"
+      },
+      {
+        "word": "set",
+        "english": "Unordered, unique collection",
+        "telugish": "Unordered & unique elements collection"
+      },
+      {
+        "word": "dict",
+        "english": "Key-value pair collection",
+        "telugish": "Key-value pair collection"
+      },
+      {
+        "word": "Index",
+        "english": "Position of element",
+        "telugish": "Element position"
+      },
+      {
+        "word": "Slice",
+        "english": "Extract part of sequence",
+        "telugish": "Sequence part extract cheyadam"
+      }
+    ]
+  },
+  "Gamma.ai": {
+    "General": [],
+    "AI & Automation Words": [
+      {
+        "word": "Artificial Intelligence (AI)",
+        "english": "Machine-based intelligence",
+        "telugish": "Machine-based intelligent system"
+      },
+      {
+        "word": "Automation",
+        "english": "Tasks done automatically",
+        "telugish": "Tasks automatic ga jaragadam"
+      },
+      {
+        "word": "Smart Formatting",
+        "english": "AI-based layout adjustment",
+        "telugish": "AI layout automatic ga adjust cheyadam"
+      },
+      {
+        "word": "Auto Design",
+        "english": "Automatic visual design",
+        "telugish": "Visual design automatic ga create cheyadam"
+      },
+      {
+        "word": "Content Structuring",
+        "english": "Organizing information logically",
+        "telugish": "Information logical ga organize cheyadam"
+      }
+    ],
+    "Input & Editing": [
+      {
+        "word": "Text Prompt",
+        "english": "Written instruction for content creation",
+        "telugish": "Content create cheyadaniki written instruction"
+      },
+      {
+        "word": "Editing",
+        "english": "Modifying generated content",
+        "telugish": "Generated content ni modify cheyadam"
+      },
+      {
+        "word": "Regenerate",
+        "english": "Recreate content using AI",
+        "telugish": "AI tho content malli create cheyadam"
+      },
+      {
+        "word": "Refine",
+        "english": "Improve generated output",
+        "telugish": "Output ni improve cheyadam"
+      },
+      {
+        "word": "Customization",
+        "english": "Adjusting style or content",
+        "telugish": "Style or content ni adjust cheyadam"
+      }
+    ],
+    "Use-Case Words": [
+      {
+        "word": "Pitch Deck",
+        "english": "Business presentation",
+        "telugish": "Business presentation slides"
+      },
+      {
+        "word": "Project Report",
+        "english": "Documented project details",
+        "telugish": "Project details document"
+      },
+      {
+        "word": "Educational Slides",
+        "english": "Learning material",
+        "telugish": "Learning material presentation"
+      },
+      {
+        "word": "Marketing Presentation",
+        "english": "Promotional content",
+        "telugish": "Promotion kosam presentation"
+      },
+      {
+        "word": "Storytelling",
+        "english": "Presenting content as a narrative",
+        "telugish": "Content ni story style lo present cheyadam"
+      }
+    ],
+    "Presentation & Document Terms": [
+      {
+        "word": "Slide",
+        "english": "Single page of a presentation",
+        "telugish": "Presentation lo single page"
+      },
+      {
+        "word": "Deck",
+        "english": "Collection of slides",
+        "telugish": "Slides collection"
+      },
+      {
+        "word": "Layout",
+        "english": "Arrangement of content on a slide",
+        "telugish": "Slide lo content arrangement"
+      },
+      {
+        "word": "Theme",
+        "english": "Overall visual style",
+        "telugish": "Presentation overall visual style"
+      },
+      {
+        "word": "Section",
+        "english": "Group of related slides",
+        "telugish": "Related slides group"
+      },
+      {
+        "word": "Outline",
+        "english": "Structured plan of content",
+        "telugish": "Content structured plan"
+      }
+    ],
+    "Visual & Media": [
+      {
+        "word": "Visual Blocks",
+        "english": "Modular content units",
+        "telugish": "Content modular sections"
+      },
+      {
+        "word": "Image Generation",
+        "english": "Creating images using AI",
+        "telugish": "AI tho images create cheyadam"
+      },
+      {
+        "word": "Icons",
+        "english": "Small visual symbols",
+        "telugish": "Small visual symbols"
+      },
+      {
+        "word": "Charts",
+        "english": "Visual data representation",
+        "telugish": "Data ni visual ga chupinche diagrams"
+      },
+      {
+        "word": "Embeds",
+        "english": "Inserted external content",
+        "telugish": "External content insert cheyadam"
+      }
+    ],
+    "Core Concepts": [
+      {
+        "word": "Gamma.ai",
+        "english": "AI tool for creating presentations and documents",
+        "telugish": "Presentations & documents create cheyadaniki use chese AI tool"
+      },
+      {
+        "word": "AI Presentation Tool",
+        "english": "Software that generates slides using AI",
+        "telugish": "AI help tho slides generate chese software"
+      },
+      {
+        "word": "Content Generation",
+        "english": "Automatically creating text and layouts",
+        "telugish": "Text & layout automatic ga create cheyadam"
+      },
+      {
+        "word": "Prompt",
+        "english": "Instruction given to AI",
+        "telugish": "AI ki ichina instruction"
+      },
+      {
+        "word": "Template",
+        "english": "Pre-designed presentation structure",
+        "telugish": "Ready-made presentation design structure"
+      }
+    ],
+    "Export & Output": [
+      {
+        "word": "Export",
+        "english": "Downloading content",
+        "telugish": "Content download cheyadam"
+      },
+      {
+        "word": "PDF",
+        "english": "Document file format",
+        "telugish": "Document file format"
+      },
+      {
+        "word": "PPT",
+        "english": "PowerPoint file format",
+        "telugish": "PowerPoint presentation format"
+      },
+      {
+        "word": "Web Link",
+        "english": "Shareable online link",
+        "telugish": "Share cheyagalige online link"
+      },
+      {
+        "word": "Publish",
+        "english": "Make content publicly available",
+        "telugish": "Content public ga release cheyadam"
+      }
+    ],
+    "Collaboration & Sharing": [
+      {
+        "word": "Collaboration",
+        "english": "Multiple users working together",
+        "telugish": "Multiple users kalisi work cheyadam"
+      },
+      {
+        "word": "Sharing",
+        "english": "Giving access to others",
+        "telugish": "Content access others ki ivvadam"
+      },
+      {
+        "word": "Commenting",
+        "english": "Feedback on content",
+        "telugish": "Feedback ivvadam"
+      },
+      {
+        "word": "Version History",
+        "english": "Record of changes",
+        "telugish": "Changes record"
+      }
+    ]
+  },
+  "General Error Concepts": {
+    "Logical Errors": [
+      {
+        "word": "Logical Error",
+        "english": "Program runs but gives wrong output",
+        "telugish": "Program run avutundi kani wrong output isthundi"
+      },
+      {
+        "word": "Incorrect Condition",
+        "english": "Wrong logic in decision",
+        "telugish": "Decision logic wrong ga undadam"
+      },
+      {
+        "word": "Infinite Loop",
+        "english": "Loop that never ends",
+        "telugish": "End kakunda loop run avutune undadam"
+      },
+      {
+        "word": "Wrong Formula",
+        "english": "Incorrect calculation logic",
+        "telugish": "Calculation logic tappu ga undadam"
+      }
+    ],
+    "Memory-Related Errors": [
+      {
+        "word": "Memory Leak",
+        "english": "Memory not released",
+        "telugish": "Use ayina memory release kakapovadam"
+      },
+      {
+        "word": "Stack Overflow",
+        "english": "Stack memory exceeded",
+        "telugish": "Stack memory limit exceed avvadam"
+      },
+      {
+        "word": "Heap Overflow",
+        "english": "Heap memory exceeded",
+        "telugish": "Heap memory limit exceed avvadam"
+      },
+      {
+        "word": "Dangling Pointer",
+        "english": "Pointer to freed memory",
+        "telugish": "Free chesina memory ki pointer undadam"
+      },
+      {
+        "word": "Uninitialized Variable",
+        "english": "Variable used before assignment",
+        "telugish": "Value assign cheyakunda variable use cheyadam"
+      }
+    ],
+    "C-Specific Error Words": [
+      {
+        "word": "Compiler Error",
+        "english": "Error during compilation",
+        "telugish": "Compilation time lo error"
+      },
+      {
+        "word": "Linker Error",
+        "english": "Error during linking",
+        "telugish": "Linking process lo error"
+      },
+      {
+        "word": "Segmentation Fault",
+        "english": "Illegal memory access",
+        "telugish": "Illegal memory access"
+      },
+      {
+        "word": "Buffer Overflow",
+        "english": "Writing beyond memory limit",
+        "telugish": "Memory limit kanna ekkuva data rayadam"
+      },
+      {
+        "word": "Undefined Behavior",
+        "english": "Unpredictable program behavior",
+        "telugish": "Program unpredictable ga behave avvadam"
+      }
+    ],
+    "Syntax & Compile-Time Errors": [
+      {
+        "word": "Syntax Error",
+        "english": "Grammar mistake in code",
+        "telugish": "Code grammar mistake"
+      },
+      {
+        "word": "Compile",
+        "english": "Time Error - Error found during compilation",
+        "telugish": "Time Error - Compilation time lo kanipade error"
+      },
+      {
+        "word": "Missing Semicolon",
+        "english": "Common syntax mistake",
+        "telugish": "Semicolon pettakapovadam valla error"
+      },
+      {
+        "word": "Invalid Keyword",
+        "english": "Wrong or misspelled keyword",
+        "telugish": "Wrong or spelling mistake unna keyword"
+      },
+      {
+        "word": "Type Mismatch",
+        "english": "Incompatible data types",
+        "telugish": "Match kakapoye data types use cheyadam"
+      },
+      {
+        "word": "Undeclared Variable",
+        "english": "Variable used without declaration",
+        "telugish": "Declare cheyakunda variable use cheyadam"
+      }
+    ],
+    "General": [],
+    "Function & Call Errors": [
+      {
+        "word": "Function Call Error",
+        "english": "Wrong function usage",
+        "telugish": "Function ni wrong ga use cheyadam"
+      },
+      {
+        "word": "Missing Return Statement",
+        "english": "No return where expected",
+        "telugish": "Return ivvalasina place lo return lekapovadam"
+      },
+      {
+        "word": "Wrong Argument Count",
+        "english": "Too many/few arguments",
+        "telugish": "Arguments ekkuva or takkuva ivvadam"
+      },
+      {
+        "word": "Recursive Error",
+        "english": "Missing base case",
+        "telugish": "Base condition lekapovadam"
+      }
+    ],
+    "Python-Specific Error Words": [
+      {
+        "word": "IndentationError",
+        "english": "Incorrect indentation",
+        "telugish": "Proper indentation follow kakapovadam"
+      },
+      {
+        "word": "NameError",
+        "english": "Variable not defined",
+        "telugish": "Define cheyakunda variable use cheyadam"
+      },
+      {
+        "word": "TypeError",
+        "english": "Operation on wrong type",
+        "telugish": "Wrong data type meeda operation cheyadam"
+      },
+      {
+        "word": "ValueError",
+        "english": "Correct type, wrong value",
+        "telugish": "Correct type kani wrong value ivvadam"
+      },
+      {
+        "word": "ZeroDivisionError",
+        "english": "Division by zero",
+        "telugish": "Zero tho division"
+      },
+      {
+        "word": "ImportError",
+        "english": "Module import failure",
+        "telugish": "Module import kakapovadam"
+      },
+      {
+        "word": "RecursionError",
+        "english": "Maximum recursion depth exceeded",
+        "telugish": "Recursion limit exceed avvadam"
+      }
+    ],
+    "Runtime Errors": [
+      {
+        "word": "Runtime Error",
+        "english": "Error occurring during execution",
+        "telugish": "Program run time lo jarige error"
+      },
+      {
+        "word": "Exception",
+        "english": "Runtime error that interrupts flow",
+        "telugish": "Runtime lo flow ni stop chese error"
+      },
+      {
+        "word": "Division by Zero",
+        "english": "Invalid arithmetic operation",
+        "telugish": "Number ni zero tho divide cheyadam"
+      },
+      {
+        "word": "Null Reference",
+        "english": "Accessing empty reference",
+        "telugish": "Empty reference ni access cheyadam"
+      },
+      {
+        "word": "Segmentation Fault",
+        "english": "Invalid memory access (C)",
+        "telugish": "Invalid memory access (C lo common)"
+      },
+      {
+        "word": "Index Out of Range",
+        "english": "Invalid index access",
+        "telugish": "Invalid index position access cheyadam"
+      }
+    ],
+    "General Error Concepts": [
+      {
+        "word": "Error",
+        "english": "A problem that prevents correct execution",
+        "telugish": "Program correct ga run kakapovadaniki problem"
+      },
+      {
+        "word": "Bug",
+        "english": "Mistake in a program",
+        "telugish": "Program lo mistake"
+      },
+      {
+        "word": "Fault",
+        "english": "Cause of an error",
+        "telugish": "Error ki main cause"
+      },
+      {
+        "word": "Failure",
+        "english": "Incorrect program behavior",
+        "telugish": "Program wrong behavior chupinchadam"
+      },
+      {
+        "word": "Debugging",
+        "english": "Finding and fixing errors",
+        "telugish": "Errors ni kanukoni fix cheyadam"
+      }
+    ],
+    "Error Analysis & Learning": [
+      {
+        "word": "Error Message",
+        "english": "Description of error",
+        "telugish": "Error description"
+      },
+      {
+        "word": "Line Number",
+        "english": "Location of error",
+        "telugish": "Error jarigina code location"
+      },
+      {
+        "word": "Traceback",
+        "english": "Call stack at error time (Python)",
+        "telugish": "Error time lo call stack details (Python)"
+      },
+      {
+        "word": "Warning",
+        "english": "Potential problem, not fatal",
+        "telugish": "Possible problem kani program stop cheyadu"
+      },
+      {
+        "word": "Reproducible Error",
+        "english": "Error that occurs consistently",
+        "telugish": "Same steps lo repeat ayye error"
+      }
+    ]
+  },
+  "NotebookLM tasks": {
+    "Organization & Analysis": [
+      {
+        "word": "Topic Grouping",
+        "english": "Organizing related ideas",
+        "telugish": "Related ideas ni group cheyadam"
+      },
+      {
+        "word": "Comparison",
+        "english": "Finding similarities and differences",
+        "telugish": "Similarities & differences kanukodam"
+      },
+      {
+        "word": "Insight Extraction",
+        "english": "Finding hidden meaning",
+        "telugish": "Hidden meaning or deep understanding kanukodam"
+      },
+      {
+        "word": "Pattern Recognition",
+        "english": "Identifying trends",
+        "telugish": "Trends or repeated patterns identify cheyadam"
+      },
+      {
+        "word": "Cross",
+        "english": "Reference - Linking multiple sources",
+        "telugish": "Reference - Multiple sources ni link cheyadam"
+      }
+    ],
+    "Input & Sources": [
+      {
+        "word": "Document Upload",
+        "english": "Adding files for analysis",
+        "telugish": "Analysis kosam files add cheyadam"
+      },
+      {
+        "word": "PDF",
+        "english": "Portable Document Format",
+        "telugish": "Portable document format file"
+      },
+      {
+        "word": "Text File",
+        "english": "Plain text document",
+        "telugish": "Plain text document"
+      },
+      {
+        "word": "Google Docs",
+        "english": "Online document source",
+        "telugish": "Online document source"
+      },
+      {
+        "word": "Web Source",
+        "english": "Online reference",
+        "telugish": "Internet reference"
+      },
+      {
+        "word": "Citation",
+        "english": "Reference to source content",
+        "telugish": "Source reference chupinchadam"
+      }
+    ],
+    "Core Concepts": [
+      {
+        "word": "NotebookLM",
+        "english": "AI tool for research, notes, and understanding documents",
+        "telugish": "Research & notes kosam use chese AI tool"
+      },
+      {
+        "word": "AI Research Assistant",
+        "english": "AI that helps analyze information",
+        "telugish": "Information analyze cheyadaniki help chese AI"
+      },
+      {
+        "word": "Notebook",
+        "english": "Workspace containing sources and notes",
+        "telugish": "Sources & notes store chese workspace"
+      },
+      {
+        "word": "Source",
+        "english": "Uploaded document or reference",
+        "telugish": "Upload chesina document or reference"
+      },
+      {
+        "word": "Context",
+        "english": "Aware AI - AI that answers based on given sources",
+        "telugish": "Aware AI - Given sources base chesukoni answer iche AI"
+      }
+    ],
+    "Note-Taking Tasks": [
+      {
+        "word": "Notes",
+        "english": "Written understanding of content",
+        "telugish": "Content gurinchi written understanding"
+      },
+      {
+        "word": "Study Notes",
+        "english": "Exam-focused notes",
+        "telugish": "Exam preparation kosam notes"
+      },
+      {
+        "word": "Bullet Points",
+        "english": "Short listed points",
+        "telugish": "Short listed points"
+      },
+      {
+        "word": "Outline",
+        "english": "Structured summary",
+        "telugish": "Structured summary"
+      },
+      {
+        "word": "Annotation",
+        "english": "Notes added to text",
+        "telugish": "Text meeda extra notes add cheyadam"
+      }
+    ],
+    "General": [],
+    "Study & Learning Tasks": [
+      {
+        "word": "Revision",
+        "english": "Reviewing material",
+        "telugish": "Material ni malli review cheyadam"
+      },
+      {
+        "word": "Exam Preparation",
+        "english": "Study-focused output",
+        "telugish": "Exams kosam study output"
+      },
+      {
+        "word": "Flashcards",
+        "english": "Question-answer learning cards",
+        "telugish": "Question-answer learning cards"
+      },
+      {
+        "word": "Practice Questions",
+        "english": "Self-test questions",
+        "telugish": "Self test questions"
+      },
+      {
+        "word": "Learning Aid",
+        "english": "Tool that supports learning",
+        "telugish": "Learning support chese tool"
+      }
+    ],
+    "Trust & Accuracy": [
+      {
+        "word": "Grounded Responses",
+        "english": "Answers based only on sources",
+        "telugish": "Sources base chesina answers"
+      },
+      {
+        "word": "Source Attribution",
+        "english": "Showing where answer came from",
+        "telugish": "Answer ekkadi nunchi vachindo chupinchadam"
+      },
+      {
+        "word": "Hallucination Reduction",
+        "english": "Avoiding made-up answers",
+        "telugish": "Fake or incorrect answers avoid cheyadam"
+      }
+    ],
+    "Writing Assistance": [
+      {
+        "word": "Drafting",
+        "english": "Creating initial content",
+        "telugish": "Initial content create cheyadam"
+      },
+      {
+        "word": "Rewriting",
+        "english": "Improving text",
+        "telugish": "Text ni improve cheyadam"
+      },
+      {
+        "word": "Simplification",
+        "english": "Making content easier",
+        "telugish": "Content ni easy ga cheyadam"
+      },
+      {
+        "word": "Paraphrasing",
+        "english": "Rewriting with same meaning",
+        "telugish": "Same meaning tho vere words lo rayadam"
+      },
+      {
+        "word": "Tone Adjustment",
+        "english": "Changing writing style",
+        "telugish": "Writing style change cheyadam"
+      }
+    ],
+    "Reading & Understanding Tasks": [
+      {
+        "word": "Summarization",
+        "english": "Creating short version of content",
+        "telugish": "Content ni short ga cheyadam"
+      },
+      {
+        "word": "Key Points",
+        "english": "Main ideas extracted",
+        "telugish": "Main important ideas"
+      },
+      {
+        "word": "Highlights",
+        "english": "Important sections",
+        "telugish": "Important sections"
+      },
+      {
+        "word": "Explanation",
+        "english": "Clarifying complex topics",
+        "telugish": "Complex topic ni clear ga cheyadam"
+      },
+      {
+        "word": "Concept Breakdown",
+        "english": "Simplifying ideas",
+        "telugish": "Ideas ni simple parts ga split cheyadam"
+      }
+    ],
+    "Question & Answer Tasks": [
+      {
+        "word": "Q&A",
+        "english": "Asking questions about sources",
+        "telugish": "Sources gurinchi questions adagadam & answers pondadam"
+      },
+      {
+        "word": "Source",
+        "english": "Based Answer - Answer grounded in uploaded content",
+        "telugish": "Based Answer - Uploaded content base chesina answer"
+      },
+      {
+        "word": "Follow",
+        "english": "up Question - Question based on previous response",
+        "telugish": "up Question - Previous answer meeda adige question"
+      },
+      {
+        "word": "Clarification",
+        "english": "Removing confusion",
+        "telugish": "Confusion clear cheyadam"
+      }
+    ]
+  },
+  "Code Checking & Submission Tools": {
+    "General": [],
+    "check50 Related Words": [
+      {
+        "word": "check50",
+        "english": "Automated tool that tests program correctness",
+        "telugish": "Program correct ga undha ani auto ga test chese tool"
+      },
+      {
+        "word": "Test Case",
+        "english": "Input used to verify program output",
+        "telugish": "Program output verify cheyadaniki use chese input"
+      },
+      {
+        "word": "Automated Testing",
+        "english": "Checking code using predefined tests",
+        "telugish": "Predefined tests tho code automatic ga check cheyadam"
+      },
+      {
+        "word": "Validation",
+        "english": "Ensuring program meets requirements",
+        "telugish": "Program requirements match ayyindha ani check cheyadam"
+      },
+      {
+        "word": "Output Comparison",
+        "english": "Matching program output with expected output",
+        "telugish": "Program output ni expected output tho compare cheyadam"
+      },
+      {
+        "word": "Hidden Tests",
+        "english": "Tests not visible to student",
+        "telugish": "Student ki kanapadani secret tests"
+      },
+      {
+        "word": "Correctness Checking",
+        "english": "Verifying program logic",
+        "telugish": "Program logic correct aa kadha ani verify cheyadam"
+      },
+      {
+        "word": "Feedback Report",
+        "english": "Result of test execution",
+        "telugish": "Test result report"
+      }
+    ],
+    "General Workflow Words": [
+      {
+        "word": "Programming Assignment",
+        "english": "Coding task for evaluation",
+        "telugish": "Evaluation kosam ichina coding task"
+      },
+      {
+        "word": "Automated Grading",
+        "english": "Machine-based evaluation",
+        "telugish": "Machine dwara code evaluation"
+      },
+      {
+        "word": "Command",
+        "english": "Line Tool - Tool used through terminal",
+        "telugish": "Line Tool - Terminal dwara use chese tool"
+      },
+      {
+        "word": "Evaluation System",
+        "english": "Platform checking code",
+        "telugish": "Code check chese platform"
+      },
+      {
+        "word": "Coding Standards",
+        "english": "Rules for writing clean code",
+        "telugish": "Clean code rayadaniki rules"
+      },
+      {
+        "word": "Error Detection",
+        "english": "Finding mistakes in code",
+        "telugish": "Code lo mistakes kanukodam"
+      }
+    ],
+    "style50 Related Words": [
+      {
+        "word": "style50",
+        "english": "Tool that checks code formatting style",
+        "telugish": "Code formatting style check chese tool"
+      },
+      {
+        "word": "Code Style",
+        "english": "Standard way of writing code",
+        "telugish": "Code rayadaniki standard method"
+      },
+      {
+        "word": "Readability",
+        "english": "Ease of understanding code",
+        "telugish": "Code easy ga chadavadaniki & ardham avvadam"
+      },
+      {
+        "word": "Indentation",
+        "english": "Proper spacing in code blocks",
+        "telugish": "Code blocks lo proper spacing maintain cheyadam"
+      },
+      {
+        "word": "Naming Convention",
+        "english": "Standard variable naming rules",
+        "telugish": "Variables/functions ki standard naming rules"
+      },
+      {
+        "word": "Formatting",
+        "english": "Organizing code layout",
+        "telugish": "Code layout ni neat ga arrange cheyadam"
+      },
+      {
+        "word": "Linting",
+        "english": "Checking style and formatting errors",
+        "telugish": "Style & formatting mistakes check cheyadam"
+      },
+      {
+        "word": "Code Quality",
+        "english": "Overall structure and clarity",
+        "telugish": "Code structure & clarity overall quality"
+      }
+    ],
+    "submit50 Related Words": [
+      {
+        "word": "submit50",
+        "english": "Tool used to submit programming assignments",
+        "telugish": "Programming assignment submit cheyadaniki use chese tool"
+      },
+      {
+        "word": "Submission",
+        "english": "Sending code to evaluation system",
+        "telugish": "Code ni evaluation system ki pampadam"
+      },
+      {
+        "word": "Repository",
+        "english": "Storage location for submitted files",
+        "telugish": "Submitted files store chese place"
+      },
+      {
+        "word": "Version Control",
+        "english": "Tracking code changes",
+        "telugish": "Code changes history track cheyadam"
+      },
+      {
+        "word": "Commit",
+        "english": "Saving changes to repository",
+        "telugish": "Changes ni repository lo save cheyadam"
+      },
+      {
+        "word": "Upload",
+        "english": "Sending files to server",
+        "telugish": "Files ni server ki pampadam"
+      },
+      {
+        "word": "Assignment Submission",
+        "english": "Sending completed program",
+        "telugish": "Complete program ni submit cheyadam"
+      },
+      {
+        "word": "Remote Server",
+        "english": "Online storage system",
+        "telugish": "Online storage system"
+      }
+    ]
+  },
+  "Basic Linux Commands": {
+    "Disk & System Info": [
+      {
+        "word": "df",
+        "english": "Shows disk space usage",
+        "telugish": "Disk space usage chupisthundi"
+      },
+      {
+        "word": "du",
+        "english": "Shows directory size",
+        "telugish": "Directory size chupisthundi"
+      },
+      {
+        "word": "free",
+        "english": "Shows memory usage",
+        "telugish": "Memory usage chupisthundi"
+      },
+      {
+        "word": "uname",
+        "english": "Shows system information",
+        "telugish": "System information chupisthundi"
+      },
+      {
+        "word": "uptime",
+        "english": "Shows system running time",
+        "telugish": "System running time chupisthundi"
+      }
+    ],
+    "Navigation Commands": [
+      {
+        "word": "pwd",
+        "english": "Shows the current working directory",
+        "telugish": "Current working directory chupisthundi"
+      },
+      {
+        "word": "ls",
+        "english": "Lists files and directories",
+        "telugish": "Files & directories list chupisthundi"
+      },
+      {
+        "word": "cd",
+        "english": "Changes directory",
+        "telugish": "Directory change cheyadam"
+      },
+      {
+        "word": "tree",
+        "english": "Displays directory structure",
+        "telugish": "Directory structure tree format lo chupisthundi"
+      }
+    ],
+    "File Viewing Commands": [
+      {
+        "word": "cat",
+        "english": "Displays file content",
+        "telugish": "File content display cheyadam"
+      },
+      {
+        "word": "less",
+        "english": "Views file content page by page",
+        "telugish": "File content page-by-page view cheyadam"
+      },
+      {
+        "word": "more",
+        "english": "Displays file content gradually",
+        "telugish": "File content gradual ga chupisthundi"
+      },
+      {
+        "word": "head",
+        "english": "Shows first lines of a file",
+        "telugish": "File first lines chupisthundi"
+      },
+      {
+        "word": "tail",
+        "english": "Shows last lines of a file",
+        "telugish": "File last lines chupisthundi"
+      }
+    ],
+    "Process Management": [
+      {
+        "word": "ps",
+        "english": "Shows running processes",
+        "telugish": "Running processes list chupisthundi"
+      },
+      {
+        "word": "top",
+        "english": "Displays live process status",
+        "telugish": "Live process status chupisthundi"
+      },
+      {
+        "word": "htop",
+        "english": "Interactive process viewer",
+        "telugish": "Interactive process viewer"
+      },
+      {
+        "word": "kill",
+        "english": "Stops a process",
+        "telugish": "Process stop cheyadam"
+      },
+      {
+        "word": "killall",
+        "english": "Stops processes by name",
+        "telugish": "Process name base chesi stop cheyadam"
+      }
+    ],
+    "General": [],
+    "Help & Utility": [
+      {
+        "word": "man",
+        "english": "Displays command manual",
+        "telugish": "Command manual chupisthundi"
+      },
+      {
+        "word": "history",
+        "english": "Shows command history",
+        "telugish": "Previous commands list chupisthundi"
+      },
+      {
+        "word": "clear",
+        "english": "Clears terminal screen",
+        "telugish": "Terminal screen clear cheyadam"
+      },
+      {
+        "word": "echo",
+        "english": "Prints text to terminal",
+        "telugish": "Terminal lo text print cheyadam"
+      },
+      {
+        "word": "alias",
+        "english": "Creates command shortcut",
+        "telugish": "Command shortcut create cheyadam"
+      }
+    ],
+    "Networking Basics": [
+      {
+        "word": "ping",
+        "english": "Checks network connectivity",
+        "telugish": "Network connectivity check cheyadam"
+      },
+      {
+        "word": "ip",
+        "english": "Shows network configuration",
+        "telugish": "Network configuration chupisthundi"
+      },
+      {
+        "word": "ifconfig",
+        "english": "Network interface info (older)",
+        "telugish": "Network interface info (old command)"
+      },
+      {
+        "word": "netstat",
+        "english": "Network statistics",
+        "telugish": "Network statistics chupisthundi"
+      }
+    ],
+    "Search & Filter Commands": [
+      {
+        "word": "grep",
+        "english": "Searches text using patterns",
+        "telugish": "Pattern use chesi text search cheyadam"
+      },
+      {
+        "word": "find",
+        "english": "Searches files and directories",
+        "telugish": "Files & directories search cheyadam"
+      },
+      {
+        "word": "locate",
+        "english": "Finds files quickly using database",
+        "telugish": "Database use chesi files fast ga kanukodam"
+      },
+      {
+        "word": "wc",
+        "english": "Counts lines, words, characters",
+        "telugish": "Lines, words, characters count cheyadam"
+      }
+    ],
+    "File & Directory Commands": [
+      {
+        "word": "touch",
+        "english": "Creates an empty file",
+        "telugish": "Empty file create cheyadam"
+      },
+      {
+        "word": "mkdir",
+        "english": "Creates a directory",
+        "telugish": "New directory create cheyadam"
+      },
+      {
+        "word": "rmdir",
+        "english": "Deletes an empty directory",
+        "telugish": "Empty directory delete cheyadam"
+      },
+      {
+        "word": "rm",
+        "english": "Deletes files or directories",
+        "telugish": "Files or directories delete cheyadam"
+      },
+      {
+        "word": "cp",
+        "english": "Copies files or directories",
+        "telugish": "Files or directories copy cheyadam"
+      },
+      {
+        "word": "mv",
+        "english": "Moves or renames files",
+        "telugish": "Files move or rename cheyadam"
+      },
+      {
+        "word": "stat",
+        "english": "Shows file details",
+        "telugish": "File details chupisthundi"
+      }
+    ],
+    "Permission & Ownership": [
+      {
+        "word": "chmod",
+        "english": "Changes file permissions",
+        "telugish": "File permissions change cheyadam"
+      },
+      {
+        "word": "chown",
+        "english": "Changes file owner",
+        "telugish": "File owner change cheyadam"
+      },
+      {
+        "word": "chgrp",
+        "english": "Changes group ownership",
+        "telugish": "File group change cheyadam"
+      },
+      {
+        "word": "umask",
+        "english": "Sets default permissions",
+        "telugish": "Default permissions set cheyadam"
+      }
+    ]
+  },
+  "File execution flow": {
+    "General": [],
+    "Memory & Runtime Words": [
+      {
+        "word": "Stack Memory",
+        "english": "Stores function calls",
+        "telugish": "Function calls & local variables store ayye memory"
+      },
+      {
+        "word": "Heap Memory",
+        "english": "Stores dynamic data",
+        "telugish": "Dynamic data store ayye memory"
+      },
+      {
+        "word": "Garbage Collection",
+        "english": "Automatic memory cleanup (Java & Python)",
+        "telugish": "Unused memory automatic ga clean cheyadam"
+      },
+      {
+        "word": "Process",
+        "english": "Program in execution",
+        "telugish": "Run avutunna program"
+      },
+      {
+        "word": "Thread",
+        "english": "Lightweight execution unit",
+        "telugish": "Process lo small execution unit"
+      }
+    ],
+    "General Execution Flow Words": [
+      {
+        "word": "Source Code",
+        "english": "Program written by developer",
+        "telugish": "Developer rayina original program code"
+      },
+      {
+        "word": "Compilation",
+        "english": "Converting source code to machine-readable form",
+        "telugish": "Source code ni machine ki ardham ayye format lo convert cheyadam"
+      },
+      {
+        "word": "Interpretation",
+        "english": "Executing code line by line",
+        "telugish": "Code ni line-by-line execute cheyadam"
+      },
+      {
+        "word": "Execution",
+        "english": "Running program instructions",
+        "telugish": "Program instructions run cheyadam"
+      },
+      {
+        "word": "Machine Code",
+        "english": "Binary instructions executed by CPU",
+        "telugish": "CPU direct ga execute chese binary instructions"
+      },
+      {
+        "word": "Runtime Environment",
+        "english": "Environment where program runs",
+        "telugish": "Program run ayye environment"
+      },
+      {
+        "word": "Loader",
+        "english": "Loads program into memory",
+        "telugish": "Program ni memory lo load chese component"
+      },
+      {
+        "word": "Linking",
+        "english": "Combining program with libraries",
+        "telugish": "Program ni libraries tho combine cheyadam"
+      },
+      {
+        "word": "Executable File",
+        "english": "File that can be run by system",
+        "telugish": "System run cheyagalige file"
+      }
+    ],
+    "Python Execution Process": [
+      {
+        "word": "Interpreter",
+        "english": "Executes Python code",
+        "telugish": "Python code ni direct ga execute chese program"
+      },
+      {
+        "word": "Bytecode",
+        "english": "Intermediate code generated by Python",
+        "telugish": "Python generate chese intermediate code"
+      },
+      {
+        "word": ".py File",
+        "english": "Python source file",
+        "telugish": "Python source code file"
+      },
+      {
+        "word": ".pyc File",
+        "english": "Compiled Python bytecode file",
+        "telugish": "Compiled Python bytecode file"
+      },
+      {
+        "word": "Python Virtual Machine (PVM)",
+        "english": "Executes bytecode",
+        "telugish": "Bytecode ni execute chese engine"
+      },
+      {
+        "word": "Dynamic Typing",
+        "english": "Type decided at runtime",
+        "telugish": "Variable type runtime lo decide avvadam"
+      },
+      {
+        "word": "Script Execution",
+        "english": "Running Python script directly",
+        "telugish": "Python script direct ga run cheyadam"
+      }
+    ],
+    "Java Execution Process": [
+      {
+        "word": "Java Compiler (javac)",
+        "english": "Converts Java code to bytecode",
+        "telugish": "Java code ni bytecode ga convert cheyadam"
+      },
+      {
+        "word": "Bytecode (.class)",
+        "english": "Intermediate platform-independent code",
+        "telugish": "Platform independent intermediate code"
+      },
+      {
+        "word": "Java Virtual Machine (JVM)",
+        "english": "Executes bytecode",
+        "telugish": "Bytecode ni execute chese engine"
+      },
+      {
+        "word": "Java Runtime Environment (JRE)",
+        "english": "Provides runtime support",
+        "telugish": "Java program run avvadanki support environment"
+      },
+      {
+        "word": "Java Development Kit (JDK)",
+        "english": "Tools for Java development",
+        "telugish": "Java development tools package"
+      },
+      {
+        "word": "Class Loader",
+        "english": "Loads class files into memory",
+        "telugish": "Class files ni memory lo load cheyadam"
+      },
+      {
+        "word": "Just",
+        "english": "In-Time (JIT) Compiler - Converts bytecode to machine code during execution",
+        "telugish": "In-Time (JIT) Compiler - Bytecode ni runtime lo machine code ga convert cheyadam"
+      },
+      {
+        "word": "Platform Independence",
+        "english": "Run program on any system",
+        "telugish": "Same program different systems lo run avvadam"
+      }
+    ],
+    "C Compilation Process": [
+      {
+        "word": "Preprocessor",
+        "english": "Handles directives like #include",
+        "telugish": "#include lanti directives ni handle cheyadam"
+      },
+      {
+        "word": "Macro Expansion",
+        "english": "Replacing macros with values",
+        "telugish": "Macros ni actual values tho replace cheyadam"
+      },
+      {
+        "word": "Header File",
+        "english": "Contains declarations",
+        "telugish": "Function declarations unna file"
+      },
+      {
+        "word": "Compiler",
+        "english": "Converts C code into object code",
+        "telugish": "C code ni object code ga convert cheyadam"
+      },
+      {
+        "word": "Object File",
+        "english": "Intermediate compiled file",
+        "telugish": "Intermediate compiled file"
+      },
+      {
+        "word": "Linker",
+        "english": "Combines object files and libraries",
+        "telugish": "Object files & libraries ni combine cheyadam"
+      },
+      {
+        "word": "Library",
+        "english": "Prewritten reusable code",
+        "telugish": "Already rayina reusable code"
+      },
+      {
+        "word": "Executable (.exe / a.out)",
+        "english": "Final runnable program",
+        "telugish": "Final runnable C program"
+      }
+    ]
+  },
+  "ElevenLabs Text to Audio": {
+    "General": [
+      {
+        "word": "ElevenLabs Text",
+        "english": "to-Audio",
+        "telugish": ""
+      }
+    ],
+    "Output & File Formats": [
+      {
+        "word": "Audio Output",
+        "english": "Generated sound file",
+        "telugish": "Generated sound file"
+      },
+      {
+        "word": "MP3",
+        "english": "Compressed audio format",
+        "telugish": "Compressed audio format"
+      },
+      {
+        "word": "WAV",
+        "english": "High-quality audio format",
+        "telugish": "High quality audio format"
+      },
+      {
+        "word": "Sample Rate",
+        "english": "Audio quality measurement",
+        "telugish": "Audio quality measurement"
+      },
+      {
+        "word": "Bitrate",
+        "english": "Audio data rate",
+        "telugish": "Audio data speed/quality level"
+      }
+    ],
+    "AI & Model Terms": [
+      {
+        "word": "AI (Artificial Intelligence)",
+        "english": "Machine intelligence",
+        "telugish": "Machine intelligence"
+      },
+      {
+        "word": "Neural Network",
+        "english": "Model inspired by human brain",
+        "telugish": "Brain style AI model structure"
+      },
+      {
+        "word": "Deep Learning",
+        "english": "Multi-layer learning technique",
+        "telugish": "Multi-layer learning method"
+      },
+      {
+        "word": "Inference",
+        "english": "Generating output from model",
+        "telugish": "Model nunchi output generate cheyadam"
+      },
+      {
+        "word": "Training Data",
+        "english": "Data used to train model",
+        "telugish": "Model train cheyadaniki use chese data"
+      }
+    ],
+    "Use-Case Words": [
+      {
+        "word": "Voiceover",
+        "english": "Spoken audio for video",
+        "telugish": "Video kosam narration audio"
+      },
+      {
+        "word": "Audiobook",
+        "english": "Book in audio form",
+        "telugish": "Book audio version"
+      },
+      {
+        "word": "Accessibility",
+        "english": "Support for disabilities",
+        "telugish": "Disabilities unna users ki support"
+      },
+      {
+        "word": "Content Creation",
+        "english": "Making digital content",
+        "telugish": "Digital content tayar cheyadam"
+      },
+      {
+        "word": "Localization",
+        "english": "Language and accent adaptation",
+        "telugish": "Language & accent adaptation"
+      }
+    ],
+    "Control & Customization": [
+      {
+        "word": "Voice Settings",
+        "english": "Adjust voice properties",
+        "telugish": "Voice properties adjust cheyadam"
+      },
+      {
+        "word": "Stability",
+        "english": "Consistency of voice",
+        "telugish": "Voice consistency maintain cheyadam"
+      },
+      {
+        "word": "Similarity Boost",
+        "english": "Voice likeness control",
+        "telugish": "Voice likeness control"
+      },
+      {
+        "word": "Emotion Control",
+        "english": "Expressive voice tuning",
+        "telugish": "Voice expression tuning"
+      }
+    ],
+    "Input & Processing": [
+      {
+        "word": "Text Input",
+        "english": "Written content provided",
+        "telugish": "AI ki ichina written content"
+      },
+      {
+        "word": "Prompt",
+        "english": "Instruction given to AI",
+        "telugish": "AI ki ichina instruction"
+      },
+      {
+        "word": "Script",
+        "english": "Prepared text for narration",
+        "telugish": "Narration kosam ready text"
+      },
+      {
+        "word": "Phoneme",
+        "english": "Smallest unit of sound",
+        "telugish": "Smallest sound unit"
+      },
+      {
+        "word": "Language Model",
+        "english": "Model understanding text",
+        "telugish": "Text ardham chesukune AI model"
+      }
+    ],
+    "Core Concepts": [
+      {
+        "word": "Text",
+        "english": "to-Speech (TTS) - Converting text into spoken audio",
+        "telugish": "to-Speech (TTS) - Text ni spoken audio ga convert cheyadam"
+      },
+      {
+        "word": "Audio Generation",
+        "english": "Creating sound using AI",
+        "telugish": "AI tho sound create cheyadam"
+      },
+      {
+        "word": "Voice Synthesis",
+        "english": "Artificial creation of human voice",
+        "telugish": "Artificial human voice create cheyadam"
+      },
+      {
+        "word": "Speech Output",
+        "english": "Generated spoken result",
+        "telugish": "Generated voice result"
+      },
+      {
+        "word": "Narration",
+        "english": "Spoken explanation of text",
+        "telugish": "Text ni voice tho explain cheyadam"
+      }
+    ],
+    "Voice & Sound Terms": [
+      {
+        "word": "Voice Model",
+        "english": "AI model that produces voice",
+        "telugish": "Voice produce chese AI model"
+      },
+      {
+        "word": "Natural Voice",
+        "english": "Human-like speech",
+        "telugish": "Human la natural ga vinipinche voice"
+      },
+      {
+        "word": "Prosody",
+        "english": "Rhythm and intonation of speech",
+        "telugish": "Speech rhythm & voice flow"
+      },
+      {
+        "word": "Pitch",
+        "english": "High or low tone of voice",
+        "telugish": "Voice high or low tone"
+      },
+      {
+        "word": "Tone",
+        "english": "Emotional quality of voice",
+        "telugish": "Voice emotional quality"
+      },
+      {
+        "word": "Accent",
+        "english": "Pronunciation style",
+        "telugish": "Pronunciation style"
+      },
+      {
+        "word": "Clarity",
+        "english": "Clearness of speech",
+        "telugish": "Speech clear ga vinipinchadam"
+      }
+    ],
+    "API & Integration": [
+      {
+        "word": "API",
+        "english": "Interface for programmatic access",
+        "telugish": "Programmatically service access cheyadaniki interface"
+      },
+      {
+        "word": "Endpoint",
+        "english": "API access URL",
+        "telugish": "API access URL"
+      },
+      {
+        "word": "Authentication",
+        "english": "API key verification",
+        "telugish": "API key verification process"
+      },
+      {
+        "word": "Request",
+        "english": "Data sent to API",
+        "telugish": "API ki pampina data"
+      },
+      {
+        "word": "Response",
+        "english": "Audio returned by API",
+        "telugish": "API nunchi vachina audio output"
+      }
+    ]
+  },
+  "Creating a Static Webpage using Basic HTML": {
+    "Links & Media": [
+      {
+        "word": "&lt;a&gt;",
+        "english": "Creates hyperlink",
+        "telugish": "Page link create cheyedi"
+      },
+      {
+        "word": "href",
+        "english": "Specifies link destination",
+        "telugish": "Link destination address"
+      },
+      {
+        "word": "&lt;img&gt;",
+        "english": "Displays an image",
+        "telugish": "Image display cheyedi"
+      },
+      {
+        "word": "src",
+        "english": "Specifies image location",
+        "telugish": "Image location specify cheyedi"
+      },
+      {
+        "word": "alt",
+        "english": "Provides alternate image text",
+        "telugish": "Image ki alternate description"
+      }
+    ],
+    "File & Deployment Basics": [
+      {
+        "word": ".html",
+        "english": "HTML file extension",
+        "telugish": "HTML file extension"
+      },
+      {
+        "word": "Index Page",
+        "english": "Main starting webpage",
+        "telugish": "Website starting page"
+      },
+      {
+        "word": "Localhost",
+        "english": "Local system testing server",
+        "telugish": "Own system testing server"
+      },
+      {
+        "word": "Hosting",
+        "english": "Publishing website online",
+        "telugish": "Website internet lo publish cheyadam"
+      }
+    ],
+    "Attributes & Formatting": [
+      {
+        "word": "Attribute",
+        "english": "Provides extra tag information",
+        "telugish": "Tag ki extra details ivvadaniki"
+      },
+      {
+        "word": "id",
+        "english": "Unique element identifier",
+        "telugish": "Unique element name"
+      },
+      {
+        "word": "class",
+        "english": "Groups similar elements",
+        "telugish": "Similar elements group name"
+      },
+      {
+        "word": "style",
+        "english": "Applies inline design",
+        "telugish": "Inline design apply cheyedi"
+      },
+      {
+        "word": "align",
+        "english": "Sets content alignment",
+        "telugish": "Content position set cheyedi"
+      }
+    ],
+    "Tables": [
+      {
+        "word": "&lt;table&gt;",
+        "english": "Creates a table",
+        "telugish": "Table create container"
+      },
+      {
+        "word": "&lt;tr&gt;",
+        "english": "Creates table row",
+        "telugish": "Table row create cheyedi"
+      },
+      {
+        "word": "&lt;td&gt;",
+        "english": "Creates table data cell",
+        "telugish": "Table data cell"
+      },
+      {
+        "word": "&lt;th&gt;",
+        "english": "Creates table heading cell",
+        "telugish": "Table heading cell"
+      }
+    ],
+    "General": [],
+    "HTML Document Structure": [
+      {
+        "word": "DOCTYPE",
+        "english": "Declares the HTML version",
+        "telugish": "HTML version declare cheyedi"
+      },
+      {
+        "word": "&lt;html&gt;",
+        "english": "Main container of webpage",
+        "telugish": "Webpage main container"
+      },
+      {
+        "word": "&lt;head&gt;",
+        "english": "Stores webpage information",
+        "telugish": "Page info store section"
+      },
+      {
+        "word": "&lt;title&gt;",
+        "english": "Name shown on browser tab",
+        "telugish": "Browser tab name"
+      },
+      {
+        "word": "&lt;body&gt;",
+        "english": "Visible webpage content",
+        "telugish": "Visible webpage content"
+      }
+    ],
+    "Text & Content Tags": [
+      {
+        "word": "&lt;h1&gt; to &lt;h6&gt;",
+        "english": "Heading tags of different sizes",
+        "telugish": "Heading size tags"
+      },
+      {
+        "word": "&lt;p&gt;",
+        "english": "Creates a paragraph",
+        "telugish": "Text paragraph create cheyedi"
+      },
+      {
+        "word": "&lt;br&gt;",
+        "english": "Creates a line break",
+        "telugish": "New line create cheyedi"
+      },
+      {
+        "word": "&lt;hr&gt;",
+        "english": "Creates a horizontal line",
+        "telugish": "Line separator create cheyedi"
+      },
+      {
+        "word": "&lt;strong&gt;",
+        "english": "Shows important bold text",
+        "telugish": "Bold importance text"
+      },
+      {
+        "word": "&lt;em&gt;",
+        "english": "Shows emphasized italic text",
+        "telugish": "Italic emphasize text"
+      }
+    ],
+    "Web & HTML Basics": [
+      {
+        "word": "Webpage",
+        "english": "A single page on the internet",
+        "telugish": "Oka internet page"
+      },
+      {
+        "word": "Website",
+        "english": "A collection of webpages",
+        "telugish": "Chala webpages kalisi unde site"
+      },
+      {
+        "word": "Static Webpage",
+        "english": "A webpage with fixed content",
+        "telugish": "Change kakunda fixed page"
+      },
+      {
+        "word": "HTML",
+        "english": "Language used to create webpages",
+        "telugish": "Webpage build cheyadaniki markup language"
+      },
+      {
+        "word": "Browser",
+        "english": "Software used to open websites",
+        "telugish": "Websites open chese software"
+      }
+    ],
+    "Lists": [
+      {
+        "word": "&lt;ul&gt;",
+        "english": "Creates bullet list",
+        "telugish": "Bullet list create cheyedi"
+      },
+      {
+        "word": "&lt;ol&gt;",
+        "english": "Creates numbered list",
+        "telugish": "Number list create cheyedi"
+      },
+      {
+        "word": "&lt;li&gt;",
+        "english": "Represents list item",
+        "telugish": "List lo item represent cheyedi"
+      }
+    ],
+    "Forms (Basic)": [
+      {
+        "word": "&lt;form&gt;",
+        "english": "Creates input form container",
+        "telugish": "User input collect container"
+      },
+      {
+        "word": "&lt;input&gt;",
+        "english": "Field for user data entry",
+        "telugish": "User data enter field"
+      },
+      {
+        "word": "type",
+        "english": "Specifies input format",
+        "telugish": "Input format specify cheyedi"
+      },
+      {
+        "word": "&lt;label&gt;",
+        "english": "Describes input field",
+        "telugish": "Input description text"
+      },
+      {
+        "word": "&lt;button&gt;",
+        "english": "Clickable action button",
+        "telugish": "Action click button"
+      }
+    ]
+  },
+  "Directory Exploration and Deletion": {
+    "General": [],
+    "System & OS Words": [
+      {
+        "word": "File System",
+        "english": "Manages files and directories",
+        "telugish": "Files & directories manage chese system"
+      },
+      {
+        "word": "Inode",
+        "english": "File metadata structure",
+        "telugish": "File metadata store chese structure"
+      },
+      {
+        "word": "Symbolic Link (Symlink)",
+        "english": "Shortcut to file/directory",
+        "telugish": "File or directory shortcut"
+      },
+      {
+        "word": "Mount Point",
+        "english": "Attached file system",
+        "telugish": "File system attach ayye location"
+      },
+      {
+        "word": "Working Directory",
+        "english": "Current directory",
+        "telugish": "Current directory"
+      }
+    ],
+    "Directory Exploration (Traversal)": [
+      {
+        "word": "Directory Traversal",
+        "english": "Navigating through directories",
+        "telugish": "Directories madhya navigate cheyadam"
+      },
+      {
+        "word": "Explore",
+        "english": "Examine directory contents",
+        "telugish": "Directory contents examine cheyadam"
+      },
+      {
+        "word": "List",
+        "english": "Display files and folders",
+        "telugish": "Files & folders display cheyadam"
+      },
+      {
+        "word": "Scan",
+        "english": "Check directory items",
+        "telugish": "Directory items check cheyadam"
+      },
+      {
+        "word": "Recursive Traversal",
+        "english": "Exploring directories inside directories",
+        "telugish": "Subdirectories lopala explore cheyadam"
+      },
+      {
+        "word": "Depth",
+        "english": "First Search (DFS) - Explore deep first",
+        "telugish": "First Search (DFS) - Deep ga first explore cheyadam"
+      },
+      {
+        "word": "Breadth",
+        "english": "First Search (BFS) - Explore level by level",
+        "telugish": "First Search (BFS) - Level-by-level explore cheyadam"
+      }
+    ],
+    "Directory Metadata": [
+      {
+        "word": "Metadata",
+        "english": "Information about file/directory",
+        "telugish": "File or directory information details"
+      },
+      {
+        "word": "File Name",
+        "english": "Name of file",
+        "telugish": "File peru"
+      },
+      {
+        "word": "Extension",
+        "english": "File type suffix",
+        "telugish": "File type suffix"
+      },
+      {
+        "word": "File Size",
+        "english": "Size of file",
+        "telugish": "File storage size"
+      },
+      {
+        "word": "Permissions",
+        "english": "Access rights",
+        "telugish": "Access rights"
+      },
+      {
+        "word": "Owner",
+        "english": "File owner",
+        "telugish": "File owner"
+      },
+      {
+        "word": "Timestamp",
+        "english": "Creation/modification time",
+        "telugish": "Creation or modification time"
+      }
+    ],
+    "Directory & File Basics": [
+      {
+        "word": "Directory",
+        "english": "A folder that contains files and subdirectories",
+        "telugish": "Files & subfolders store chese folder"
+      },
+      {
+        "word": "File",
+        "english": "A unit of stored data",
+        "telugish": "Data store ayye unit"
+      },
+      {
+        "word": "Path",
+        "english": "Location of a file or directory",
+        "telugish": "File or directory location"
+      },
+      {
+        "word": "Absolute Path",
+        "english": "Full path from root",
+        "telugish": "Root nunchi full location path"
+      },
+      {
+        "word": "Relative Path",
+        "english": "Path from current directory",
+        "telugish": "Current directory nunchi location path"
+      },
+      {
+        "word": "Root Directory",
+        "english": "Top-level directory",
+        "telugish": "Top-level main directory"
+      }
+    ],
+    "Deletion Concepts": [
+      {
+        "word": "Delete",
+        "english": "Remove file or directory",
+        "telugish": "File or directory remove cheyadam"
+      },
+      {
+        "word": "Remove",
+        "english": "Another term for delete",
+        "telugish": "Delete ki vere word"
+      },
+      {
+        "word": "Recursive Deletion",
+        "english": "Delete directory and all contents",
+        "telugish": "Directory tho patu content delete cheyadam"
+      },
+      {
+        "word": "Force Delete",
+        "english": "Delete without confirmation",
+        "telugish": "Confirmation lekunda delete cheyadam"
+      },
+      {
+        "word": "Soft Delete",
+        "english": "Mark as deleted (recoverable)",
+        "telugish": "Temporary delete (recover cheyagalamu)"
+      },
+      {
+        "word": "Hard Delete",
+        "english": "Permanently remove",
+        "telugish": "Permanent delete"
+      }
+    ],
+    "Risk & Protection Words": [
+      {
+        "word": "Accidental Deletion",
+        "english": "Unintended delete",
+        "telugish": "Mistake ga delete cheyadam"
+      },
+      {
+        "word": "Backup",
+        "english": "Copy of data",
+        "telugish": "Data copy save cheyadam"
+      },
+      {
+        "word": "Restore",
+        "english": "Recover deleted data",
+        "telugish": "Deleted data recover cheyadam"
+      },
+      {
+        "word": "Trash / Recycle Bin",
+        "english": "Temporary delete area",
+        "telugish": "Temporary delete storage area"
+      }
+    ],
+    "Command-Line Words": [
+      {
+        "word": "ls",
+        "english": "List directory contents",
+        "telugish": "Directory contents list cheyadam"
+      },
+      {
+        "word": "cd",
+        "english": "Change directory",
+        "telugish": "Directory change cheyadam"
+      },
+      {
+        "word": "pwd",
+        "english": "Print working directory",
+        "telugish": "Current directory chupisthundi"
+      },
+      {
+        "word": "rm",
+        "english": "Remove file",
+        "telugish": "File remove cheyadam"
+      },
+      {
+        "word": "rmdir",
+        "english": "Remove empty directory",
+        "telugish": "Empty directory remove cheyadam"
+      },
+      {
+        "word": "rm",
+        "english": "r - Recursive delete",
+        "telugish": "r - Recursive delete command"
+      }
+    ],
+    "Safety & Validation Words": [
+      {
+        "word": "Confirmation",
+        "english": "User approval before delete",
+        "telugish": "Delete mundu user approval"
+      },
+      {
+        "word": "Validation",
+        "english": "Check before action",
+        "telugish": "Action mundu checking process"
+      },
+      {
+        "word": "Error Handling",
+        "english": "Managing failures",
+        "telugish": "Failures ni manage cheyadam"
+      },
+      {
+        "word": "Permission Check",
+        "english": "Verify access rights",
+        "telugish": "Access rights verify cheyadam"
+      },
+      {
+        "word": "Protected File",
+        "english": "File that should not be deleted",
+        "telugish": "Delete cheyakudadu ani protect chesina file"
+      }
+    ]
+  },
+  "Algorithms & Basics": {
+    "General": [
+      {
+        "word": "Algorithms & Basics",
+        "english": "Algorithm Principles",
+        "telugish": ""
+      }
+    ],
+    "Correctness Using Tracing Words": [
+      {
+        "word": "Tracing",
+        "english": "Tracking algorithm steps manually",
+        "telugish": "Algorithm steps ni manual ga follow cheyadam"
+      },
+      {
+        "word": "Dry Run",
+        "english": "Step-by-step manual execution",
+        "telugish": "Program ni step-by-step manual execution cheyadam"
+      },
+      {
+        "word": "Execution Flow",
+        "english": "Order of program steps",
+        "telugish": "Program steps order"
+      },
+      {
+        "word": "State Tracking",
+        "english": "Monitoring variable values",
+        "telugish": "Variables values ni monitor cheyadam"
+      },
+      {
+        "word": "Validation",
+        "english": "Checking correctness of logic",
+        "telugish": "Logic correct aa kadha ani check cheyadam"
+      },
+      {
+        "word": "Test Case",
+        "english": "Input used to verify correctness",
+        "telugish": "Program correct ga work chesthundha ani check cheyadaniki input"
+      },
+      {
+        "word": "Debugging",
+        "english": "Finding and fixing errors",
+        "telugish": "Errors ni kanukoni fix cheyadam"
+      }
+    ],
+    "No Duplicates Words": [
+      {
+        "word": "Uniqueness",
+        "english": "Avoiding repeated data",
+        "telugish": "Repeated data lekunda undadam"
+      },
+      {
+        "word": "Duplicate Removal",
+        "english": "Eliminating repeated values",
+        "telugish": "Repeated values remove cheyadam"
+      },
+      {
+        "word": "Data Integrity",
+        "english": "Accuracy and consistency of data",
+        "telugish": "Data correct & consistent ga undadam"
+      },
+      {
+        "word": "Redundancy",
+        "english": "Unnecessary repetition of data",
+        "telugish": "Unnecessary repeated data"
+      },
+      {
+        "word": "Set Structure",
+        "english": "Collection with unique elements",
+        "telugish": "Unique elements unna collection"
+      },
+      {
+        "word": "Validation Check",
+        "english": "Verifying data uniqueness",
+        "telugish": "Data uniqueness verify cheyadam"
+      },
+      {
+        "word": "Consistency",
+        "english": "Maintaining uniform data",
+        "telugish": "Data uniform ga maintain cheyadam"
+      }
+    ],
+    "Multiple Solutions Words": [
+      {
+        "word": "Alternative Solution",
+        "english": "Different ways to solve problem",
+        "telugish": "Problem ki different solving methods"
+      },
+      {
+        "word": "Optimization",
+        "english": "Improving performance",
+        "telugish": "Performance improve cheyadam"
+      },
+      {
+        "word": "Efficiency",
+        "english": "Best use of time and memory",
+        "telugish": "Time & memory ni best ga use cheyadam"
+      },
+      {
+        "word": "Trade",
+        "english": "off - Balancing advantages and disadvantages",
+        "telugish": "off - Advantages & disadvantages balance cheyadam"
+      },
+      {
+        "word": "Algorithm Comparison",
+        "english": "Evaluating different algorithms",
+        "telugish": "Different algorithms ni compare cheyadam"
+      },
+      {
+        "word": "Complexity Analysis",
+        "english": "Measuring performance",
+        "telugish": "Algorithm performance measure cheyadam"
+      },
+      {
+        "word": "Scalability",
+        "english": "Ability to handle larger input",
+        "telugish": "Large inputs handle cheyagalige ability"
+      }
+    ],
+    "Meaningful Variable Names Words": [
+      {
+        "word": "Variable Naming",
+        "english": "Assigning understandable names to variables",
+        "telugish": "Variables ki clear & meaning unna peru ivvadam"
+      },
+      {
+        "word": "Readability",
+        "english": "Ease of understanding code",
+        "telugish": "Code ni easy ga chadavadaniki & ardham chesukodaniki possible avvadam"
+      },
+      {
+        "word": "Self",
+        "english": "Documenting Code - Code that explains itself",
+        "telugish": "Documenting Code - Code chusthe explanation kavalsina avasaram lekunda ardham avvadam"
+      },
+      {
+        "word": "Naming Convention",
+        "english": "Standard rules for naming variables",
+        "telugish": "Variables/functions ki standard naming rules"
+      },
+      {
+        "word": "Identifier",
+        "english": "Name given to variable or function",
+        "telugish": "Variable or function ki ichina name"
+      },
+      {
+        "word": "Clarity",
+        "english": "Clear and understandable coding style",
+        "telugish": "Code clear ga undadam"
+      },
+      {
+        "word": "Maintainability",
+        "english": "Ease of modifying code later",
+        "telugish": "Future lo code modify cheyadam easy avvadam"
+      }
+    ],
+    "End User Experience Words": [
+      {
+        "word": "End User",
+        "english": "Person who uses the final program",
+        "telugish": "Final ga software ni use chese person"
+      },
+      {
+        "word": "User Experience (UX)",
+        "english": "Overall user interaction quality",
+        "telugish": "User ki software use chesthe overall feeling & comfort"
+      },
+      {
+        "word": "Usability",
+        "english": "Ease of using the system",
+        "telugish": "System ni easy ga use cheyadam"
+      },
+      {
+        "word": "User",
+        "english": "Friendly - Easy and simple for users",
+        "telugish": "Friendly - Users ki simple & easy ga ardham ayye system"
+      },
+      {
+        "word": "Accessibility",
+        "english": "Making system usable for everyone",
+        "telugish": "Andharu (including disabled users) use cheyagalige system"
+      },
+      {
+        "word": "Interface",
+        "english": "Interaction layer between user and program",
+        "telugish": "User & program madhya communication layer"
+      },
+      {
+        "word": "Responsiveness",
+        "english": "Speed of system response",
+        "telugish": "System fast ga reply ivvadam"
+      }
+    ]
+  }
+}
